@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+	<title>首页</title>
+	<script type="text/javascript">
+		(function (win,doc){
+		    if (!win.addEventListener) return;
+			var html=document.documentElement;
+			function setFont()
+			{
+				var cliWidth=html.clientWidth;
+				html.style.fontSize=100*(cliWidth/750)+'px';
+			}
+			win.addEventListener('resize',setFont,false);
+			setFont();
+		})(window,document);
+
+	</script>
+	<style>
+.white{ background: #fff; }
+*{ padding: 0;margin: 0; }
+ul{ list-style: none; }
+html{font-size: 16px;}
+.fl{ float: left; }
+.fr{ float: right; }
+.overflow{ overflow: hidden; }
+
+.container{ background: #f1eded; }
+header{ height: 0.9rem; background: #990000;  }
+.serach { font-size: 0; }
+.serach input{border: none; outline: none; margin-top: 0.2rem;border-radius: 0.3rem; width: 50%; height: 0.56rem; margin-left: 0.35rem; }
+img{ width: 100%; }
+.banner{ height: 4rem; }
+.category{ padding: 0.32rem 0; background: #fff; margin-bottom: 0.2rem; }
+.category ul{ font-size: 0; text-align: center; }
+.category ul li{ display: inline-block;vertical-align: top;margin:0.2rem 0.42rem 0.2rem 0.42rem;width: 1rem;}
+.category ul li .item{margin: 0 auto; height: 0.9rem; width: 0.9rem; border-radius: 50%; }
+.category ul li p{ color: #666; text-align: center; font-size: 0.14rem; margin-top: 0.1rem; }
+
+.recommend{  padding-left: 0.15rem; }
+.title{overflow: hidden;padding: 0.3rem 0 0.46rem;}
+h1{ font-size: 0.16rem;}
+h1 span{ height: 25px; width:10px;margin-right: 0.1rem; background: #e46600; display: inline-block; vertical-align: middle; }
+.reco-text{ color: #e46600;}
+.more{color: #999; font-size: 0.16rem;}
+
+.goodslist{ height:12rem;  }
+.list{ margin-bottom: 0.2rem;display: inline-block; height: 5.8rem;width: 3.42rem;border: 1px solid #ccc; }
+.list .goods-img,.goods-img img{height: 3.42rem;width: 3.42rem;}
+.ysc{ overflow: hidden; }
+.goods-detail{margin: 0.15rem 0.1rem; font-size: 0; height: 1.9rem;}
+.goods-detail .shoplogo,.goods-detail .shoplogo img{ border-radius: 50%; width: 0.8rem;height: 0.8rem; }
+.goods-detail .goods-name{    line-height: 0.4rem; color: #333; margin-left: 0.1rem; width: 2.25rem;font-size: 0.12rem;vertical-align: middle; }
+.shoplogo,.goods-name,.shop-name,.number{ display: inline-block; vertical-align: top; }
+.goods-price{ font-size: 0.12rem; color: #900000; }
+.goods-price span{font-size: 0.4rem; }
+.shop-address{ text-align: right; }
+.shop-address,.shop-detail{ font-size: 0.14rem; color: #999; }
+.shop-detail{ margin-top: 0.1rem; }
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="serach"><input type="text"></div>
+		</header>
+		<div class="banner">
+			<img src="images/banner.png" alt="">
+		</div>
+		<div class="category">
+			<ul>
+				<li><div class="item" style="background: #c770ff"></div><p>服饰箱包</p></li>
+				<li><div class="item" style="background: #f05858"></div><p>服饰箱包</p></li>
+				<li><div class="item" style="background: #5ca4fd"></div><p>服饰箱包</p></li>
+				<li><div class="item" style="background: #fd85f3"></div><p>服饰箱包</p></li>
+				<li><div class="item" style="background: #6df7df"></div><p>服饰箱包</p></li>
+				<li><div class="item" style="background: #fbe169"></div><p>服饰箱包</p></li>
+				<li><div class="item" style="background: #7bc4d9"></div><p>服饰箱包</p></li>
+				<li><div class="item" style="background: #fcba5b"></div><p>服饰箱包</p></li>
+			</ul>
+		</div>
+		<div class="recommend white">
+			<div class="title">
+				<h1 class="fl reco-text"><span></span>推荐商品</h1>
+				<div class="more fr">更多&gt;</div>
+			</div>
+			<div class="goodslist">
+				<div class="list">
+					<div class="goods-img">
+						<img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt="">
+					</div>
+					<div class="goods-detail">
+						<div class="ysc">
+							<div class="shoplogo">
+								<img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt="">
+							</div>
+							<div class="goods-name">
+								<p>秋季新款女装韩版休闲百搭</p>
+								<div class="goods-price">￥<span>68</span>.00</div>
+							</div>
+						</div>
+						<div class="shop-address">大连</div>
+						<div class="shop-detail overflow">
+							<div class="shop-name fl">盛世鸿祥</div>
+							<div class="number fr">10人付款</div>
+						</div>
+					</div>
+				</div>
+				<div class="list">
+					<div class="goods-img">
+						<img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt="">
+					</div>
+					<div class="goods-detail">
+						<div class="ysc">
+							<div class="shoplogo">
+								<img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt="">
+							</div>
+							<div class="goods-name">
+								<p>秋季新款女装韩版休闲百搭</p>
+								<div class="goods-price">￥<span>68</span>.00</div>
+							</div>
+						</div>
+						<div class="shop-address">大连</div>
+						<div class="shop-detail overflow">
+							<div class="shop-name fl">盛世鸿祥</div>
+							<div class="number fr">10人付款</div>
+						</div>
+					</div>
+				</div>
+				<div class="list">
+					<div class="goods-img">
+						<img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt="">
+					</div>
+					<div class="goods-detail">
+						<div class="ysc">
+							<div class="shoplogo">
+								<img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt="">
+							</div>
+							<div class="goods-name">
+								<p>秋季新款女装韩版休闲百搭</p>
+								<div class="goods-price">￥<span>68</span>.00</div>
+							</div>
+						</div>
+						<div class="shop-address">大连</div>
+						<div class="shop-detail overflow">
+							<div class="shop-name fl">盛世鸿祥</div>
+							<div class="number fr">10人付款</div>
+						</div>
+					</div>
+				</div>
+				<div class="list">
+					<div class="goods-img">
+						<img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt="">
+					</div>
+					<div class="goods-detail">
+						<div class="ysc">
+							<div class="shoplogo">
+								<img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt="">
+							</div>
+							<div class="goods-name">
+								<p>秋季新款女装韩版休闲百搭</p>
+								<div class="goods-price">￥<span>68</span>.00</div>
+							</div>
+						</div>
+						<div class="shop-address">大连</div>
+						<div class="shop-detail overflow">
+							<div class="shop-name fl">盛世鸿祥</div>
+							<div class="number fr">10人付款</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
