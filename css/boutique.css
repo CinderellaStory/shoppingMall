@@ -1,0 +1,17 @@
+nav{ height: 0.7rem; line-height: 0.7rem; }
+nav ul {margin: 0 auto;text-align: center;}
+nav ul li{color: #333;margin: 0 0.3rem; display: inline-block;vertical-align: top; }
+nav ul li.on{ color: #900000; }
+.boutique{ margin-top: 0.1rem; }
+.boutique ul{ text-align: center; margin: 0 auto;font-size: 0; }
+.boutique ul li{border: 1px solid #ccc;text-align: left; margin: 0 0.1rem 0.2rem; width: 3.4rem;display: inline-block;vertical-align: top; }
+.boutique ul li .goods-img,.boutique ul li .goods-img img{ height: 3.4rem;width: 3.4rem; }
+.boutique ul li .goods-img img{  }
+.goods-detail{ font-size: 0.2rem;border-top: 1px solid #ccc; background: #fff; height: 1.94rem; }
+.goods-name{ line-height: 0.38rem; font-size: 0.18rem; padding: 0.2rem 0.3rem 0.1rem 0.2rem; }
+.boutique ul li .goods-detail .price{margin-left: 0.1rem; color: #900000; font-size: 0.16rem; }
+
+.shop-address,.shop-detail{ font-size: 0.14rem; color: #999; }
+.shop-detail{ margin: 0.1rem; }
+.shop-address{ margin-right: 0.1rem; text-align: right; }
+

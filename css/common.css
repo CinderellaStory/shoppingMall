@@ -1,6 +1,8 @@
-*{ padding: 0;margin: 0; }
-ul{ list-style: none; }
-html{font-size: 16px;}
-.fl{ float: left; }
-.fr{ float: right; }
-.overflow{ overflow: hidden; }
+.container{font-size: 0.3rem; background: #f1eded;  }
+footer{ text-align: center;bottom: 0;position: fixed; border-top: 1px solid #eee;  height: 1rem;  font-size: 0; width: 100%; }
+footer a { margin: 0.14rem 0.6rem 0 0.6rem;display: inline-block;vertical-align: top; }
+footer .iconfont{ color: #666; font-size: 0.4rem }
+footer a.item-active p{  color: #900000; }
+footer a.item-active i{  color: #900000; }
+footer a i img{ width: 0.48rem;height: 0.43rem; }
+footer a p{    margin-top: 0.04rem; color: #999; font-size: 0.24rem;  }

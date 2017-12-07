@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>名店</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/shop.css" type="text/css">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="shop">
+			<nav class="white">
+				<ul>
+					<li>店铺等级<i class="iconfont icon-f11-copy"></i></li>
+					<li>店铺类别<i class="iconfont icon-f11-copy"></i></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="hotshop-item white">
+			
+		</div>
+	</div>
+	<!-- 尾部导航 -->
+		<footer class="white">
+			<a href="">
+				<i class="iconfont icon-shouye"></i>
+				<p>首页</p>
+			</a>
+			<a href="">
+				<i class="iconfont icon-jingpin"></i>
+				<p>精品</p>
+			</a>
+			<a href="" class="item-active">
+				<i class="iconfont icon-dianming"></i>
+				<p>名店</p>
+			</a>
+			<a href="">
+				<i class="iconfont icon-wode"></i>
+				<p>我的</p>
+			</a>
+		</footer>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		var hotshop = ('<div class="hotshop-list"> <div class="shophot-detail"> <div class="hotshoplogo"> <img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""> </div> <div class="hotshop-name"> <p class="snames">在水一方服饰</p> <p class="classify"><span>服装</span><em>共102件商品</em></p> </div> <div class="btn fr">进入店铺</div> </div><div class="list-item"><div class="list"> <div class="goods-img"> <img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""> </div> <div class="goods-detail"> <div class="ysc">  <div class="goods-name"> <p>秋季新款女装韩版休闲百搭</p> <div class="goods-price">￥<span>68</span>.00</div> </div> </div></div> </div><div class="list"> <div class="goods-img"> <img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""> </div> <div class="goods-detail"> <div class="ysc"><div class="goods-name"> <p>秋季新款女装韩版休闲百搭</p> <div class="goods-price">￥<span>68</span>.00</div> </div> </div></div> </div></div>');
+		$(".hotshop-item").append(Array(5).fill(hotshop));
+	</script>
+</body>
+</html>

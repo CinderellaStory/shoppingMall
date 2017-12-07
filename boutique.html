@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>精品</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/boutique.css" type="text/css">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<nav class="white">
+			<ul>
+				<li class="on">销量优先</li>
+				<li>价格区间</li>
+				<li>分类</li>
+				<li>发货地</li>
+			</ul>
+		</nav>
+		<div class="boutique">
+			<ul>
+				<li>
+					<div class="goods-img">
+						<a href=""><img src="https://img.alicdn.com/bao/uploaded/i1/TB1bZfLQpXXXXcxXXXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg" alt=""></a>
+					</div>
+					<div class="goods-detail">
+						<p class="goods-name">2017春装新款韩版潮宽松学生百搭T恤女衣服露肩长袖打底衫女夏季</p>
+						<div class="price">
+							￥<span>449</span>.00
+						</div>
+
+						<div class="shop-address">大连</div>
+						<div class="shop-detail overflow">
+							<div class="shop-name fl">盛世鸿祥</div>
+							<div class="number fr">10人付款</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="goods-img">
+						<a href=""><img src="https://img.alicdn.com/bao/uploaded/i1/TB1bZfLQpXXXXcxXXXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg" alt=""></a>
+					</div>
+					<div class="goods-detail">
+						<p class="goods-name">2017春装新款韩版潮宽松学生百搭T恤女衣服露肩长袖打底衫女夏季</p>
+						<div class="price">
+							￥<span>449</span>.00
+						</div>
+						
+						<div class="shop-address">大连</div>
+						<div class="shop-detail overflow">
+							<div class="shop-name fl">盛世鸿祥</div>
+							<div class="number fr">10人付款</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 尾部导航 -->
+		<footer class="white">
+			<a href="">
+				<i class="iconfont icon-shouye"></i>
+				<p>首页</p>
+			</a>
+			<a href="" class="item-active">
+				<i class="iconfont icon-jingpin"></i>
+				<p>精品</p>
+			</a>
+			<a href="">
+				<i class="iconfont icon-dianming"></i>
+				<p>名店</p>
+			</a>
+			<a href="">
+				<i class="iconfont icon-wode"></i>
+				<p>我的</p>
+			</a>
+		</footer>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		var item = ('<li> <div class="goods-img"> <a href=""><img src="https://img.alicdn.com/bao/uploaded/i1/TB1bZfLQpXXXXcxXXXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg" alt=""></a> </div> <div class="goods-detail"> <p class="goods-name">2017春装新款韩版潮宽松学生百搭T恤女衣服露肩长袖打底衫女夏季</p> <div class="price"> ￥<span>449</span>.00 </div> <div class="shop-address">大连</div> <div class="shop-detail overflow"> <div class="shop-name fl">盛世鸿祥</div> <div class="number fr">10人付款</div> </div> </div> </li>');
+		$(".boutique ul").append(Array(12).fill(item));
+	</script>
+</body>
+</html>

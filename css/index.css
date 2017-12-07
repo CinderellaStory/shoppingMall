@@ -1,12 +1,14 @@
-.white{ background: #fff; }
+header{ overflow: hidden; font-size: 0; height: 0.9rem; background: #990000;  }
+.serach { font-size: 0; position: relative; }
+.serach .icon-sousuo2{    font-size: 0.3rem; color: #666; position: absolute; left: 0.5rem;top: 0.3rem;}
+.serach input{    font-size: 0.3rem;padding-left: 0.6rem;border: none; outline: none; margin-top: 0.2rem;border-radius: 0.3rem; width: 4.8rem; height: 0.56rem; margin-left: 0.35rem; }
+.sweep{margin: 0.3rem 0.4rem 0 0;}
+.sweep .icon-saoma1{    font-size: 0.3rem; color: #fff;  }
 
-
-.container{ background: #f1eded; }
-header{ height: 0.9rem; background: #990000;  }
-.serach { font-size: 0; }
-.serach input{border: none; outline: none; margin-top: 0.2rem;border-radius: 0.3rem; width: 50%; height: 0.56rem; margin-left: 0.35rem; }
 img{ width: 100%; }
+
 .banner{ height: 4rem; }
+
 .category{ padding: 0.32rem 0; background: #fff; margin-bottom: 0.2rem; }
 .category ul{ font-size: 0; text-align: center; }
 .category ul li{ display: inline-block;vertical-align: top;margin:0.2rem 0.42rem 0.2rem 0.42rem;width: 1rem;}
@@ -25,7 +27,7 @@ h1{ font-size: 0.16rem;}
 h1 span{ height: 25px; width:10px;margin-right: 0.1rem;display: inline-block; vertical-align: middle; }
 .more{color: #999; font-size: 0.16rem;}
 
-.list{ margin-bottom: 0.2rem;display: inline-block; height: 5.36rem;width: 3.42rem;border: 1px solid #ccc; }
+.list{    margin-right: 0.2rem; margin-bottom: 0.2rem;display: inline-block; height: 5.2rem;width: 3.42rem;border: 1px solid #ccc; }
 .list .goods-img,.goods-img img{height: 3.42rem;width: 3.42rem;}
 .ysc{ overflow: hidden; }
 .goods-detail{margin: 0.15rem 0.1rem; font-size: 0; height: 1.9rem;}
@@ -51,6 +53,7 @@ h1 span{ height: 25px; width:10px;margin-right: 0.1rem;display: inline-block; ve
 .btn{ margin-top: 0.56rem; width: 1.4rem; font-size: 0.2rem; color: #e26826; border: 1px solid #e26826; text-align: center; height: 0.48rem; line-height: 0.48rem;  }
 .hotshop-item{  }
 .list-item{ position: relative; display: inline-block;vertical-align: top; margin-top: 0.14rem; margin-left: 0.2rem; }
+.list-item .goods{ border: 1px solid #ccc; }
 .list-item,.list-item img{ width: 2.1rem; height: 2.1rem; }
 .list-item span{}
 .goods span{ opacity: 0.9; text-align: center; width: 1.26rem;height: 0.46rem; line-height: 0.46rem; position: absolute;bottom: 0;right: 0; background: #000;color: #fff; font-size: 0.14rem;}
