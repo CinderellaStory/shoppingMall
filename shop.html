@@ -15,7 +15,9 @@
 		<div class="shop">
 			<nav class="white menu">
 				<ul>
-					<li data-level="1">店铺等级<i class="iconfont icon-f11-copy"></i>
+					<li data-level="1">
+						<span>店铺等级</span>
+						<i class="iconfont icon-f11-copy"></i>
 						<ul>
 							<li>爱心店铺</li>
 							<li>创业店铺</li>
@@ -25,7 +27,9 @@
 							<li>企业店铺</li>
 						</ul>
 					</li>
-					<li data-level="2">店铺类别<i class="iconfont icon-f11-copy"></i>
+					<li data-level="2">
+						<span>店铺类别</span>
+						<i class="iconfont icon-f11-copy"></i>
 						<ul>
 							<li>衣服</li>
 							<li>裤子</li>
@@ -71,7 +75,17 @@
 			$(this).children('ul').hide();
 		}
 		$(".menu ul li").on('click',function(){
-			$(this).children('ul').toggle(click1,click2);})
+			$(this).children('ul').children('li').css('color','#900000');
+			$(this).children('span').css('color','#900000');
+			$(this).children('i').css('color','#900000');
+			$(this).children('ul').toggle(click1,click2);
+		})
+		$(".menu ul li ul li").on('click',function(){
+			var level = $(this).parents().siblings('span');
+			var grade = $(this).html();
+			level.html(grade);
+			// console.log(grade);
+		})
 	</script>
 </body>
 </html>
