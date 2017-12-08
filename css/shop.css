@@ -1,8 +1,11 @@
 nav{ height: 0.7rem; line-height: 0.7rem; }
 nav ul {margin: 0 auto;text-align: center;}
-nav ul li{color: #333;margin: 0 0.8rem; display: inline-block;vertical-align: top; }
 nav ul li.on{ color: #900000; }
-.shop nav ul li .icon-f11-copy{    color: #999; font-size: 0.4rem;vertical-align: middle; }
+nav ul li .icon-f11-copy{color: #999; font-size: 0.4rem;vertical-align: middle; }
+/*下拉菜单csss*/
+nav ul li ul{ display: none;position: absolute; left: 0; background: #fff; font-size: 0.26rem;}
+nav ul li{height: 0.7rem; line-height: 0.7rem; position: relative;color: #333;/*margin: 0 0.4rem;*/ width: 3rem;float: left; }
+
 
 
 .hot-shop{ margin-top: .2rem; padding: 0.2rem; font-size: 0; }
