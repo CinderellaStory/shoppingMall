@@ -1,7 +1,7 @@
 header{ overflow: hidden; font-size: 0; height: 0.9rem; background: #990000;  }
 .serach { font-size: 0; position: relative; }
 .serach .icon-sousuo2{    font-size: 0.3rem; color: #666; position: absolute; left: 0.5rem;top: 0.3rem;}
-.serach input{    font-size: 0.3rem;padding-left: 0.6rem;border: none; outline: none; margin-top: 0.2rem;border-radius: 0.3rem; width: 4.8rem; height: 0.56rem; margin-left: 0.35rem; }
+.serach input{font-size: 0.3rem;padding-left: 0.6rem;border: none; outline: none; margin-top: 0.2rem;border-radius: 0.3rem; width: 4.8rem; height: 0.56rem; margin-left: 0.35rem; }
 .sweep{margin: 0.3rem 0.4rem 0 0;}
 .sweep .icon-saoma1{    font-size: 0.3rem; color: #fff;  }
 
@@ -22,39 +22,18 @@ img{ width: 100%; }
 .hot-text span{ background: #e40076; }
 
 .recommend{  padding-left: 0.15rem; }
-.title{overflow: hidden;padding: 0.3rem 0 0.46rem;}
+.title{overflow: hidden; padding: 0.3rem 0.3rem 0.46rem 0;}
 h1{ font-size: 0.16rem;}
 h1 span{ height: 25px; width:10px;margin-right: 0.1rem;display: inline-block; vertical-align: middle; }
 .more{color: #999; font-size: 0.16rem;}
 
-.list{    margin-right: 0.2rem; margin-bottom: 0.2rem;display: inline-block;width: 3.42rem;border: 1px solid #ccc; }
-.list .goods-img,.goods-img img{height: 3.42rem;width: 3.42rem;}
-.ysc{ overflow: hidden; }
-.goods-detail{margin: 0.15rem 0.1rem; font-size: 0;}
 .goods-detail .shoplogo,.goods-detail .shoplogo img{ border-radius: 50%; width: 0.8rem;height: 0.8rem; }
-.goods-detail .goods-name{    line-height: 0.4rem; color: #333; margin-left: 0.1rem; width: 2.25rem;font-size: 0.12rem;vertical-align: middle; }
-.shoplogo,.goods-name,.shop-name,.number{ display: inline-block; vertical-align: top; }
-.goods-price{ font-size: 0.12rem; color: #900000; }
-.goods-price span{font-size: 0.4rem; }
-.shop-address{ text-align: right; }
-.shop-address,.shop-detail{ font-size: 0.14rem; color: #999; }
-.shop-detail{ margin-top: 0.1rem; }
+.goods-detail .goods-name{margin-left: 0.1rem; width: 2.25rem; }
+.shoplogo,.goods-name{ float: left;  }
+
 /*热门商铺css*/
-.hot-shop{ margin-top: .2rem; padding: 0.2rem; font-size: 0; }
-.hotshop-list{    margin-bottom: 0.2rem; height: 4rem;border: 1px solid #ccc; }
-.shophot-detail{ padding:0.2rem; border-bottom: 1px solid #ccc; }
-.hotshoplogo,.hotshop-name,.btn{ display: inline-block; vertical-align: top; }
-.hotshoplogo,.hotshoplogo img{ border-radius: 50%; height: 1.2rem;width: 1.2rem; }
-.hotshop-name{ margin-top: 0.25rem; margin-left: 0.2rem; }
-.hotshop-name{ line-height: 0.4rem; }
-.snames{ font-size : 0.2rem; color: #333; }
-.classify span,.classify em{ color: #999; font-size: 0.16rem;}
-.classify em{ margin-left: 0.3rem;font-style: normal; }
-.btn{ margin-top: 0.56rem; width: 1.4rem; font-size: 0.2rem; color: #e26826; border: 1px solid #e26826; text-align: center; height: 0.48rem; line-height: 0.48rem;  }
-.hotshop-item{  }
-.list-item{ position: relative; display: inline-block;vertical-align: top; margin-top: 0.14rem; margin-left: 0.2rem; }
-.list-item .goods{ border: 1px solid #ccc; }
-.list-item,.list-item img{ width: 2.1rem; height: 2.1rem; }
-.list-item span{}
+.item{ position: relative; display: inline-block;vertical-align: top; margin: 0.14rem 0.1rem; }
+.item .goods{ border: 1px solid #ccc; }
+.item,.item img{ width: 2.1rem; height: 2.1rem; }
 .goods span{ opacity: 0.9; text-align: center; width: 1.26rem;height: 0.46rem; line-height: 0.46rem; position: absolute;bottom: 0;right: 0; background: #000;color: #fff; font-size: 0.14rem;}
 
