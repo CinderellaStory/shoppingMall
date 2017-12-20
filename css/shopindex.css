@@ -1,0 +1,9 @@
+.banner,.banner img{  height: 3.85rem; }
+.shopindex .shophot-detail{ margin-bottom: 0.1rem; }
+
+.navbar{ overflow: hidden; margin-bottom: 0.2rem; }
+.navbar ul li{ height: 0.84rem; line-height: 0.84rem; display: inline-block;vertical-align: top;text-align: center; width: 2.4rem; }
+.navbar ul li.current{ color: #900000; border-bottom: 1px solid #900000; }
+
+.noproduct{ text-align: center; color: #999; margin-bottom: 0.2rem; height: 1rem; line-height: 1rem; }
+.list{margin: 0.2rem 0 0.2rem  0.18rem;display: inline-block; width: 3.42rem;border: 1px solid #ccc; }

@@ -14,11 +14,13 @@
 	<div class="container">
 		<!-- 头部 -->
 		<header>
-			<div class="serach fl">
-				<i class="iconfont icon-sousuo2"></i>
-				<input type="text" placeholder="请输入商品或店铺名称">
-			</div>
-			<div class="sweep fr"><i class="iconfont icon-saoma1"></i></div>
+			<form action="" method="get">
+				<div class="serach fl">
+					<i class="iconfont icon-sousuo2"></i>
+					<input type="text" placeholder="请输入商品或店铺名称">
+				</div>
+				<div class="sweep fr"><i class="iconfont icon-saoma1"></i></div>
+			</form>
 		</header>
 		<!-- banner -->
 		<div class="banner">
@@ -67,7 +69,7 @@
 				<i class="iconfont icon-dianming"></i>
 				<p>名店</p>
 			</a>
-			<a href="">
+			<a href="my.html">
 				<i class="iconfont icon-wode"></i>
 				<p>我的</p>
 			</a>
@@ -77,7 +79,7 @@
 	<script>
 		var list = ('<div class="list"> <div class="goods-img"> <img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""> </div> <div class="goods-detail"> <div class="ysc"> <div class="shoplogo"> <img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""> </div> <div class="goods-name"> <p>秋季新款女装韩版休闲百搭秋季新款女装韩版休闲百搭</p> <div class="goods-price">￥<span>68</span>.00</div> </div> </div> <div class="shop-address">大连</div> <div class="shop-detail overflow"> <div class="shop-name fl">盛世鸿祥</div> <div class="number fr">10人付款</div> </div> </div> </div>');
 		$(".goodslist").append(Array(4).fill(list));
-		var hotshop = ('<div class="hotshop-list"> <div class="shophot-detail"> <div class="hotshoplogo"> <img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""> </div> <div class="hotshop-name"> <p class="snames">在水一方服饰</p> <p class="classify"><span>服装</span><em>共102件商品</em></p> </div> <div class="btn fr">进入店铺</div> </div> <div class="hotshop-goods"> <div class="item"> <div class="goods"> <a href=""><img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""></a> <span>¥199.99</span> </div> </div> <div class="item"> <div class="goods"> <a href=""><img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""></a> <span>¥199.99</span> </div> </div> <div class="item"> <div class="goods"> <a href=""><img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""></a> <span>¥199.99</span> </div> </div> </div> </div>');
+		var hotshop = ('<div class="hotshop-list"> <div class="shophot-detail"> <div class="hotshoplogo"> <img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""> </div> <div class="hotshop-name"> <p class="snames">在水一方服饰</p> <p class="classify"><span>服装</span><em>共102件商品</em></p> </div> <div class="btn fr"><a href="shopindex.html">进入店铺</a></div> </div> <div class="hotshop-goods"> <div class="item"> <div class="goods"> <a href=""><img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""></a> <span>¥199.99</span> </div> </div> <div class="item"> <div class="goods"> <a href=""><img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""></a> <span>¥199.99</span> </div> </div> <div class="item"> <div class="goods"> <a href=""><img src="http://www.ysc66.com/Uploads//goods/2017-09-14/59ba1daf90c7d_600x600.jpg" alt=""></a> <span>¥199.99</span> </div> </div> </div> </div>');
 		$(".hotshop-item").append(Array(5).fill(hotshop));
 	</script>
 </body>

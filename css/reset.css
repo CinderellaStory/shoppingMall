@@ -1,9 +1,11 @@
 *{ padding: 0;margin: 0; }
 ul{ list-style: none; }
 a{ text-decoration: none; }
-html{font-size: 16px;}
+html{font-size: 100px;}
 .fl{ float: left; }
 .fr{ float: right; }
 .overflow{ overflow: hidden; }
 .white{ background: #fff; }
 body{ background: #f1eded; }
+
+.mb{}
