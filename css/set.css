@@ -1,0 +1,7 @@
+.group ul{ background: #fff; }
+.group ul li{ border-bottom: 1px solid #ccc; height: 1.05rem; line-height: 1.05rem; padding-left: 0.4rem; padding-right: 0.38rem;  }
+.group ul li span{ color: #333; }
+
+
+.icon-next img{ width: 0.13rem; height: 0.25rem;}
+.sign-out{ position: fixed;bottom: 1rem;left: 0.8rem;color: #fff; font-size: 0.32rem; letter-spacing: 0.2rem; text-align: center; width: 6rem; height: 0.8rem; line-height: 0.8rem; background: #900000; }

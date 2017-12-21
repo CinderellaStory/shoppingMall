@@ -1,0 +1,11 @@
+
+.order { background-image: url(my.png); background-repeat: no-repeat; background-size: 1.28rem 2.56rem; }
+
+.order.icon_ForTheGoods { width:0.53rem; height:0.45rem; background-position:13.33333% 57.34597%; }
+
+.order.icon_ToSendTheGoods { width:0.6rem; height:0.46rem; background-position:14.70588% 4.7619%; }
+
+.order.icon_obligation { width:0.54rem; height:0.45rem; background-position:13.51351% 31.27962%; }
+
+.order.icon_toEvaluate { width:0.5rem; height:0.5rem; background-position:12.82051% 85.43689%; }
+
