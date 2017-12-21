@@ -1,4 +1,4 @@
-.userHeader{ background: url(../images/my/bg-mine.png) no-repeat; width: 100%; }
+.userHeader{ background: url(../images/my/bg-mine.png) no-repeat;background-size:100% 100%; height: 4.2rem;}
 .user{ margin: 0 0.5rem;  }
 .set{ text-align: right; padding-top: 0.5rem; }
 .user-info{ padding-top: 0.5rem; }
