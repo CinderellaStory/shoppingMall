@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单页面</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/order.css" type="text/css">
+	<link rel="stylesheet" href="css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="order">
+			<div class="OrderNavbar white">
+				<ul>
+					<li class="cur">全部</li>
+					<li>待付款</li>
+					<li>待发货</li>
+					<li>待收货</li>
+					<li>待评价</li>
+				</ul>
+			</div>
+			<div class="OrderList">
+				<ul></ul>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		var list = ('<li> <div class="order-detail lb overflow"> <span class="order-shopinfo fl"> <img src="images/my/icon_shop.png" class="icon-shop"> 果酱公主店铺 <img src="images/my/icon_next.png" class="icon-next"> </span> <span class="order-status fr">代付款</span> </div> <div class="order-info lb overflow"> <span class="order-number fl">订单号：YSC1234567897456</span> <span class="order-times fr">2017-08-10</span> </div> <div class="order-goods lb overflow"> <div class="order-goods-img fl"> <img src="images/default.jpg" alt=""> </div> <div class="order-goods-detail fl"> <p class="goods-name">果酱公主2017新款长袖连衣裙冬款时尚休闲</p> <p class="property"> <span class="fl mr15">尺码：S</span> <span class="fl ">颜色：红</span> <span class="fr">X1</span> </p> </div> </div> <div class="order-price lb"> <i>￥</i><span>178.00</span> </div> <div class="BtnGroup lb"> <div class="cancel-btn Line-btn">取消订单</div> <div class="payment-btn Line-btn">去付款</div> </div> </li>');
+		$(".OrderList ul").append(Array(10).fill(list));
+	</script>
+</body>
+</html>

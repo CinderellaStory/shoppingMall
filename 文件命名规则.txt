@@ -1,0 +1,26 @@
+店铺信息：shopinfo.html
+物流管理：logistics.html
+意见反馈：feedback.html
+用户角色：user-role.html
+订单评价：order-assess.html
+开通店铺：openshop.html
+站内信：mail.html
+资金明细：funds.html
+积分明细：integral.html
+购物券明细：vouchers.html
+修改密码：modify-password.html
+收藏商品：collet-goods.html
+收藏店铺：coller-shop.html
+店铺认证：shopcertify.html
+分类管理：sort-manage.html
+添加分类：add-sort.html
+提现：withdraw.html
+40. 充值：recharge.html
+绑定银行卡：bindbank.html
+确认发货：sure-delivery.html
+选择供货商：choose-supplier.html
+供货商首页：choose-home.html
+商品管理：goods-manage.html
+商品库 :  good-warehouse.html
+选择性别： choose-sex.html
+修改昵称：revise-nickname.html

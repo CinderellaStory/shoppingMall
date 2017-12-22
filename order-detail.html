@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单详情</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/order-detail.css" type="text/css">
+	<link rel="stylesheet" href="css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="order-detail">
+			<div class="order-detail-status">
+				<span class="c3 fl">等待付款</span>
+				<span class="cr fr">剩余付款时间 00：56：32</span>
+			</div>
+			<div class="order-detail-info mt10">
+				<p class="order-detail-number">订单编号：123456789124</p>
+				<p class="order-dtail-time">下单时间：2017-03-28　20：30：30</p>
+			</div>
+			<div class="order-detail-goods mt10">
+				<div class="order-detail lb overflow"> <span class="order-shopinfo fl"> <img src="images/my/icon_shop.png" class="icon-shop"> 果酱公主店铺 <img src="images/my/icon_next.png" class="icon-next"> </span></div>
+				<div class="order-goods lb overflow"> 
+					<div class="order-goods-img fl"> 
+						<img src="images/default.jpg" alt=""> 
+					</div>
+					<div class="order-goods-detail fl">
+						<p class="goods-name">果酱公主2017新款长袖连衣裙冬款时尚休闲</p> 
+						<p class="property"> 
+							<span class="fl mr15">尺码：S</span> 
+							<span class="fl ">颜色：红</span> 
+							<span class="fr">X1</span> 
+						</p> 
+					</div> 
+				</div>
+				<div class="order-detail-price lb">
+					<p class="overflow c3">
+						<span class="fl">商品金额</span>
+						<span class="fr">￥168.00</span>
+					</p>
+					<p class="overflow c3">
+						<span class="fl">优惠抵扣</span>
+						<span class="fr">￥0.00</span>
+					</p>
+					<p class="overflow c3">
+						<span class="fl">运费</span>
+						<span class="fr">￥0.00</span>
+					</p>
+				</div>
+				<div class="order-detail-payment mt10">
+					需付款：<span class="cr">￥168.00</span>
+				</div>
+			</div>
+			<div class="order-detail-payment-method mt10 wt">
+				<p class="l">
+					<span class="fl">支付方式</span>
+					<span class="fr c9">支付宝</span>
+				</p>
+				<p>
+					<span class="fl">配送信息</span>
+					<span class="fr c9">快速发货</span>
+				</p>
+			</div>
+			<div class="order-detail-receipt wt mt10">
+				<div class="receiver-info lb">
+					<div class="receiver c6">
+						收货人：<span class="mr15 c3">林欣欣</span>
+						<span class="c3">13458989858</span>
+					</div>
+					<div class="address c3 overflow">
+						<img src="images/my/icon_position.png" class="icon-position inline">
+						<span class="inline" style="width: 90%;line-height: 0.4rem;">广东省深圳市南山区广东省深圳市南山区广东省深圳市南山区</span>
+					</div>
+				</div>
+				<div class="logistics">
+					<ul>
+						<li class="cur">
+							<div class="logistics-item">
+								<p class="logistics-addess"><span>【深圳市】</span>深圳市南山区深圳市公司发货</p>
+								<p class="logistics-time">2017-12-12　16：40:20</p>
+							</div>
+						</li>
+						<li>
+							<div class="logistics-item">
+								<p class="logistics-addess"><span>【深圳市】</span>深圳市南山区深圳市公司发货</p>
+								<p class="logistics-time">2017-12-12　16：40:20</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		var list = ('<li> <div class="logistics-item"> <p class="logistics-addess"><span>【深圳市】</span>深圳市南山区深圳市公司发货</p> <p class="logistics-time">2017-12-12　16：40:20</p> </div> </li>');
+		$(".logistics ul").append(Array(6).fill(list));
+	</script>
+</body>
+</html>
