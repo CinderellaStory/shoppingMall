@@ -15,12 +15,12 @@
 .order-goods-detail{ width: 76.8%;border: 0; margin-left: 0.2rem; }
 .goods-name{ color: #333; font-size: 0.3rem; }
 .property{ color: #999; font-size: 0.26rem; margin-top: 0.2rem; }
-.order-price{ text-align: right;height: 0.7rem; line-height: 0.7rem; color: #333;}
-.order-price i{ font-style: normal; font-size: 0.28rem; }
+.order-price{ height: 0.7rem; line-height: 0.7rem; color: #333;}
+.order-price i{ font-style: normal; font-size: 0.28rem;}
 .BtnGroup{ height: 0.96rem;text-align: right;line-height: 0.96rem;}
 .BtnGroup .Line-btn{ display: inline-block; width: 1.56rem; text-align: center; border-radius: 0.5rem; height: 0.5rem; font-size: 0.28rem; line-height: 0.5rem;  }
-.BtnGroup .cancel-btn{ border:1px solid #666; color:#666; margin-right: 0.26rem; }
-.BtnGroup .payment-btn{ border:1px solid #900000; color: #900000;  }
+.BtnGroup .cancel-btn{ border:1px solid #666; color:#666;  }
+.BtnGroup .payment-btn{ border:1px solid #900000; color: #900000;margin-left: 0.26rem;  }
 
 
 

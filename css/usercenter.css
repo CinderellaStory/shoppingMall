@@ -59,3 +59,33 @@ img.icon-logistics{ width: 0.31rem; height: 0.31rem; vertical-align: middle;}
 
 /*订单详情 收货地址icon*/
 img.icon-position{ width: 0.28rem; height: 0.33rem;  vertical-align: top;}
+
+/*订单详情  选择收获地址icon*/
+img.icon-edit{ width: 0.23rem; height: 0.26rem; }
+img.icon-empty{width: 0.22rem; height: 0.25rem;}
+img.icon-choose{width: 0.38rem; height: 0.38rem;}
+
+
+/*物流管理 设置icon宽高*/
+img.icon-zto{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-ems{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-bsht{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-sf{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-yto{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-yd{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-sto{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-tt{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-zjs{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-tdhy{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-yd{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.icon-db{width: 0.58rem; height:0.58rem; vertical-align: middle;}
+img.slide-right{width: 0.84rem; height:0.44rem; vertical-align: middle;}
+img.slide-left{width: 0.84rem; height:0.44rem; vertical-align: middle;}
+
+
+/*箭头符号icon*/
+
+
+
+img.icon-wechat{width: 0.38rem;height: 0.38rem; vertical-align: middle;}
+img.icon-alipay{width: 0.38rem;height: 0.38rem; vertical-align: middle;}

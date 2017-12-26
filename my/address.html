@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>选择收获地址</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../css/address.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="../js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="address">
+			<ul>
+				<li>
+					<div class="lb overflow">
+						<div class="fl choose-icon">
+							<i></i>
+						</div>
+						<div class="fl">
+							<p class="harvest"><span class="harvest-text mr40"><font color="#666">收货人：</font>林欣欣</span><span>134568965656</span></p>
+							<p class="choose-address">广东省深圳市南山区广东省深圳市南山区</p>
+						</div>
+					</div>
+					<div class="perate">
+						<a class="edit">
+							<i><img src="../images/my/icon_edit.png" class="icon-edit"></i>
+							<span>编辑</span>
+						</a>
+						<a class="del">
+							<i><img src="../images/my/icon_empty.png" class="icon-empty"></i>
+							<span>删除</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		var item = ('<li> <div class="lb overflow"> <div class="fl choose-icon"><i></i></div> <div class="fl"> <p class="harvest"><span class="harvest-text mr40"><font color="#666">收货人：</font>林欣欣</span><span c>134568965656</span></p> <p class="choose-address">广东省深圳市南山区广东省深圳市南山区</p> </div> </div> <div class="perate"> <a class="edit"> <i><img src="../images/my/icon_edit.png" class="icon-edit"></i> <span>编辑</span> </a> <a class="del"> <i><img src="../images/my/icon_empty.png" class="icon-empty"></i> <span>删除</span> </a> </div> </li>');
+		$(".address ul").append(Array(5).fill(item));
+		// 选择收货地址
+		$(".choose-icon i").on('click',function(){
+			$(this).addClass("active").parents().siblings().find(".choose-icon i").removeClass("active");
+		})
+	</script>
+</body>
+</html>

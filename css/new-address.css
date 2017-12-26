@@ -1,0 +1,9 @@
+.new-address .list-item{ padding-left: 0.4rem;  width: 100%; background: #fff;}
+.list-item input{ border: 0; width: 100%;height: 1.05rem; line-height: 1.05rem; font-size: 0.3rem; }
+.cell-input {color: #333; }
+textarea{border: 0; padding-top:0.3rem; width: 100%;font-size: 0.3rem; }
+.default-address{height: 1.05rem; line-height: 1.05rem; color: #666; }
+.default-address i{ margin-right: 0.15rem; vertical-align: middle; display: inline-block;height: 0.38rem; width: 0.38rem; background: url(../images/my/icon_choose.png) no-repeat; background-size: 100% 100%; }
+.default-address i.active{display: inline-block; background: url(../images/my/icon_choosed.png) no-repeat; background-size: 100% 100%;}
+
+button{ text-align: center;height: 0.74rem; width: 5.92rem; line-height: 0.74rem; font-size: 0.3rem; border:none; background: #900000; color: #fff; border-radius: 0.1rem;letter-spacing: 0.2rem;left: 0.8rem;bottom: 1rem;position: fixed; }

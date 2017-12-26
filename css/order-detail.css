@@ -1,4 +1,4 @@
-.order-detail-status{ height: 0.7rem; line-height: 0.7rem; background: #fff; padding-left: 0.5rem;  padding-right: 0.4rem; }
+.order-detail-status{ height: 0.8rem; line-height: 0.8rem; background: #fff; padding-left: 0.5rem;  padding-right: 0.4rem; }
 .order-detail-info{padding-left: 0.5rem; background: #fff; height: 1.42rem; }
 .order-detail-info p{ color: #666; height: 0.71rem; line-height: 0.71rem; }
 
@@ -9,7 +9,7 @@
 .order-detail-price p{ line-height: 0.66rem; }
 .order-goods{ padding: 0.2rem 0;}
 .order-goods-img img{ height: 1.32rem; width: 1.32rem; border:1px solid #efefef;}
-.order-goods-detail{ width: 76.8%;border: 0; margin-left: 0.2rem; }
+.order-goods-detail{ width: 76.4%;border: 0; margin-left: 0.2rem; }
 .goods-name{ color: #333; font-size: 0.3rem; line-height: 0.4rem; }
 .property{ color: #999; font-size: 0.26rem; margin-top: 0.1rem; }
 .order-price{ text-align: right;height: 0.7rem; line-height: 0.7rem; color: #333;}
@@ -38,3 +38,7 @@
 .logistics-time{ margin-top: 0.2rem; margin-bottom: 0.2rem; }
 .logistics-addess{margin-left: -0.1rem; }
 .logistics-item{ border-bottom: 1px solid #e5e5e5;margin-left: 0.2rem; }
+
+
+.sure-order{ height: 0.92rem; line-height: 0.92rem; text-align: right; }
+.sure-order a{ margin-right: 0.38rem; width: 1.55rem; height: 0.5rem; line-height: 0.5rem; border-radius: 0.5rem; text-align: center; color: #900000; border:1px solid #900000; display: inline-block; }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开通店铺</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../css/openshop.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="../js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="openshop lb">
+			<sention class="group">
+				<sention>
+					<div class="grade">普通店铺</div>
+					<ul>
+						<li>企业店铺</li>
+						<li>爱心店铺</li>
+						<li>旗舰店铺</li>
+						<li>创业店铺</li>
+						<li>专业店铺</li>
+					</ul>
+				</sention>
+				<sention class="openshop-info">
+					<p class="lb"><input type="text" placeholder="请填写推荐人"></p>
+					<p class="lb"><input type="text" placeholder="请填写服务中心"></p>
+				</sention>		
+			</sention>
+			<sention>
+				<p class="text">你当前选择的商铺等级为普通店铺，可上传8件商品。费用为￥1000/年 共三年。</p>
+			</sention>	
+			<div class="payment wt">
+				<ul>
+					<li>
+						<span class="fl">总计</span>
+						<span class="fr cr">￥3000.00</span>
+					</li>
+					<li>支付方式</li>
+					<li class="item">
+						<div class="fl"><i><img src="../images/my/icon_wechat.png" class="icon-wechat"></i><span>支付宝支付</span></div>
+						<div class="fr"><em></em></div>
+					</li>
+					<li class="item">
+						<div class="fl"><i><img src="../images/my/icon_alipay.png" class="icon-alipay"></i><span>微信支付</span></div>
+						<div class="fr"><em></em></div>
+					</li>
+				</ul>
+				<button>确认开通</button>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(function(){
+			// 店铺下拉
+			$(".openshop .group .grade").on('click',function(){
+				$(this).next().toggle();
+			});
+			$(".openshop .group ul li").on('click',function(){
+				$(this).parent().prev().text($(this).text());
+				$(this).parent().hide();
+			});
+			// 选中支付方式
+			$(".payment ul li.item").click(function(){
+				$(this).addClass('cur').siblings().removeClass('cur');
+			})
+		})
+	</script>
+</body>
+</html>

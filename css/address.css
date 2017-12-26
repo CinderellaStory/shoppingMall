@@ -1,0 +1,13 @@
+.mr40{margin-right: 0.4rem;}
+.address{color: #333;}
+.address ul li{margin-bottom: 0.1rem;background: #fff; }
+.address ul li .lb{ height: 1.8rem; }
+.harvest{ padding-top: 0.3rem; }
+.choose-icon{ margin: 0.7rem 0.2rem 0 0.3rem; }
+.choose-address{ margin-top: 0.2rem;}
+.perate{  text-align: right; height: 0.75rem; line-height: 0.75rem; }
+.perate a{ color: #999; margin-right: 0.4rem; }
+
+.choose-icon i{ display: inline-block;height: 0.38rem; width: 0.38rem; background: url(../images/my/icon_choose.png) no-repeat; background-size: 100% 100%; }
+.choose-icon i.active{display: inline-block; background: url(../images/my/icon_choosed.png) no-repeat; background-size: 100% 100%;}
+

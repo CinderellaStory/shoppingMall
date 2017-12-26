@@ -1,0 +1,4 @@
+.user-role{ background: #fff; }
+.user-role ul li{border-bottom: 1px solid #e7e7e7;height: 1rem;line-height: 1rem; padding: 0 0.38rem; }
+.user-role ul li span{ float: left;  color: #333;}
+.user-role ul li.on i{margin-top: 0.3rem;background: url(../images/my/icon_choosed.png) no-repeat;display: inline-block;background-size: 100% 100%;width: 0.38rem;height: 0.38rem; float: right;}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>物流管理</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../css/logistics-message.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="../js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="logistics-message">
+			<ul>
+				<li>
+					<i><img src="../images/my/icon_zto.png" class="icon-zto"></i>
+					<span>中通快递</span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+				<li>
+					<i><img src="../images/my/icon_ems.png" class="icon-zto"></i>
+					<span>EMS</span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+				<li>
+					<i><img src="../images/my/icon_bsht.png" class="icon-zto"></i>
+					<span>百世快递</span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+				<li>
+					<i><img src="../images/my/icon_sf.png" class="icon-zto"></i>
+					<span>顺丰快递</span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+				<li>
+					<i><img src="../images/my/icon_yd.png" class="icon-zto"></i>
+					<span>韵达快递</span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+				<li>
+					<i><img src="../images/my/icon_sto.png" class="icon-zto"></i>
+					<span>申通快递</span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+				<li>
+					<i><img src="../images/my/icon_tt.png" class="icon-zto"></i>
+					<span>天天快递</span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+				<li>
+					<i><img src="../images/my/icon_zjs.png" class="icon-zto"></i>
+					<span>宅急送</span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+				<li>
+					<i><img src="../images/my/icon_tdhy.png" class="icon-zto"></i>
+					<span>天华地宇 </span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+				<li>
+					<i><img src="../images/my/icon_db.png" class="icon-zto"></i>
+					<span>德邦物流</span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+				<li>
+					<i><img src="../images/my/icon_zto.png" class="icon-zto"></i>
+					<span>中通快递</span>
+					<em><img src="../images/my/slide_right.png" class="slide-right"></em>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(".logistics-message ul li em img").on('click',function(){
+			if ($(this).attr('src')=='../images/my/slide_right.png') {
+				$(this).attr('src','../images/my/slide_left.png');
+			}else
+			{
+				$(this).attr('src','../images/my/slide_right.png');
+			}
+		})
+	</script>
+</body>
+</html>

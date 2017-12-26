@@ -1,0 +1,9 @@
+header{ background: #990000;height: 2.7rem;  color: #fff; padding-left: 0.4rem;}
+.funds-text{ padding-top: 0.9rem; font-size: 0.4rem; }
+.funds-number{ margin-top: 0.3rem; font-size: 0.6rem; }
+.integral{ background: #fff;  }
+.integral h3{ height: 1.06rem; line-height: 1.06rem; border-left: 3px solid #900000; color: #333; padding-left: 0.3rem; }
+.integral ul li{ height: 1.3rem;padding: 0 0.4rem; border-bottom: 1px solid #e5e5e5; }
+.integral ul li p.c9{ margin-top: 0.2rem; }
+.integral ul li p.c3{ margin-top: 0.1rem; font-size: 0.32rem; }
+.integral ul li .cr{ line-height: 1.3rem; }
