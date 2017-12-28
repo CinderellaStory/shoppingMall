@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>积分明细</title>
+	<title>资金明细</title>
 	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<link rel="stylesheet" href="../css/common.css" type="text/css">
 	<link rel="stylesheet" href="../css/reset.css" type="text/css">
@@ -13,11 +13,33 @@
 <body>
 	<div class="container">
 		<header>
-			<p class="funds-text">积分</p>
-			<p class="funds-number">2360</p>
+			<div class="fl">
+				<p class="funds-text">余额（元）</p>
+				<p class="funds-number">2360.00</p>
+			</div>
+			<div class="fr">
+				<div class="">
+					<p><img src="../images/my/icon_recharge.png" class="icon-recharge"></p>
+					<p>充值</p>
+				</div>
+				<div class="">
+					<p><img src="../images/my/icon_Cashwithdrawal.png" class="icon-Cashwithdrawal"></p>
+					<p>提现</p>
+				</div>
+			</div>
 		</header>
-		<div class="integral mt10">
-			<h3>积分明细</h3>
+		<div class="integral overflow wt">
+			<div class="fl">
+				<p class="number">220.00</p>
+				<p class="text">可用余额（元）</p>
+			</div>
+			<div class="fr">
+				<p class="number">220.00</p>
+				<p class="text">优惠券余额（元）</p>
+			</div>
+		</div>
+		<div class="integral-list mt10">
+			<h3>资金明细</h3>
 			<ul>
 				<li>
 					<div class="fl">
@@ -32,7 +54,7 @@
 	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	<script>
 		var item = ('<li> <div class="fl"> <p class="c9">2017-10-30 12:00:00</p> <p class="c3">店铺交易返还</p> </div> <div class="fr cr">+300.00</div> </li>');
-		$(".integral ul").append(Array(10).fill(item));
+		$(".integral-list ul").append(Array(10).fill(item));
 	</script>
 </body>
 </html>

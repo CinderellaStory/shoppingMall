@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>收藏店铺</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../css/collect.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="../js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="collet_shop">
+			<div class="colletNavbar wt">
+				<a href="collet_goods.html">收藏商品(5)</a>
+				<a href="collet_shop.html" class="cur">收藏店铺(6)</a>
+			</div>
+			<div class="ColletShop-Container">
+				<ul>
+					<li>
+						<div class="CollectShop-list swipeleft">
+							<div class="shoplogo fl"><img src="../images/default.jpg" alt=""></div>
+							<div class="fl">
+								<p><span class="ShopName">海外旗舰店<img src="../images/default.jpg" alt=""></span></p>
+								<p class="other"><span class="mr40">美妆</span><span>共101件商品</span></p>
+							</div>
+							<div class="del"> 删除 </div>
+						</div>
+					</li>
+					<li>
+						<div class="CollectShop-list">
+							<div class="shoplogo fl"><img src="../images/default.jpg" alt=""></div>
+							<div class="fl">
+								<p><span class="ShopName">海外旗舰店<img src="../images/default.jpg" alt=""></span></p>
+								<p class="other"><span class="mr40">美妆</span><span>共101件商品</span></p>
+							</div>
+							<div class="del"> 删除 </div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(".del").click(function(){
+			console.log(2222);
+			$(this).animate({right:"20%"});
+		})
+	</script>
+</body>
+</html>

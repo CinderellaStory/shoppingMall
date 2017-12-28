@@ -1,0 +1,37 @@
+/*此为收藏店铺&收藏商品CSS*/
+.mr40{ margin-right: 0.4rem; }
+.colletNavbar{ height: 0.86rem; line-height: 0.86rem; }
+.colletNavbar a{border-bottom: 1px solid #e5e5e5; font-size: 0.34rem; color: #333; width: 49%; text-align: center; display: inline-block; }
+.colletNavbar a.cur{border-bottom: 1px solid #900000; color: #900000;}
+
+.colletGoods-Container ul li{ overflow: hidden; margin-bottom: 0.1rem; background: #fff; }
+.colletGoods-Container .fl{height: 3.3rem;padding: 0.2rem 0;  width: 50%; }
+.colletGoods-Container .fl img{width: 3.3rem; height: 3.3rem;padding-left: 0.2rem; }
+.colletGoods-Container .fr{ position: relative; padding-top: 0.2rem;width: 50%; height: 3.3rem;}
+.colletGoods-Container .fr p{padding-right: 0.1rem; line-height: 0.5rem; font-size: 0.30rem; }
+
+.colletGoods-Container .foods-footer{ width: 100%; position: absolute; left: 0; bottom: -0.1rem; }
+.colletGoods-Container .price{  float: left; font-weight: bold;  color:#666;  }
+.colletGoods-Container .price em{ font-style: normal; font-size: 0.4rem; }
+.colletGoods-Container .collect{ padding-right: 0.2rem;float: right; color: #900000;    margin-top: 0.1rem;  }
+.colletGoods-Container .collect i{ margin-right: 0.1rem; display: inline-block; background: url(../images/my/icon_collect_set_cancel.png) no-repeat; width: 0.27rem;height: 0.26rem; background-size: 100% 100%; }
+.colletGoods-Container .collect i.cur{ background: url(../images/my/icon_collect_set_cancel.png)no-repeat; width: 0.27rem;height: 0.26rem; background-size: 100% 100%; }
+
+.no-collect{ text-align: center; color: #999; height: 1rem; line-height: 1rem; }
+
+ /*padding: 0.36rem 0rem 0.36rem 0.2rem;*/
+.ColletShop-Container{overflow: hidden; background: #fff; padding-left: 0.2rem; padding-top: 0.36rem; }
+.ColletShop-Container ul li{ width: 118%; }
+.ColletShop-Container ul li .CollectShop-list{transition: all 0.3s linear; height: 1.54rem; overflow: hidden; border-bottom: 1px solid #e5e5e5; }
+.ColletShop-Container ul li .shoplogo{ margin-right: 0.2rem; }
+.ColletShop-Container ul li .shoplogo img{ border-radius: 50%; width: 1.16rem;height: 1.16rem; }
+.ColletShop-Container ul li .ShopName{ color: #333; font-weight: 600; font-size: 0.38rem; }
+.ColletShop-Container ul li span img{ margin-left: 0.15rem; vertical-align: middle; width: 0.4rem; height: 0.4rem; border-radius: 50%; }
+
+.ColletShop-Container ul li .other{ font-size: 0.32rem; margin-top: 0.2rem; color: #999; }
+
+
+   /*display: none;*/
+.del{  background: #900000;height: 1.54rem; color: #fff; float: right; width: 1.9rem; text-align: center; line-height: 1.54rem; }
+.swipeleft{     transform: translateX(-15%); }
+

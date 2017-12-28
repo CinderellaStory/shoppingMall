@@ -15,7 +15,7 @@
 	订单评价：order-assess.html
 28  开通店铺：openshop.html
 站内信：mail.html
-资金明细：funds.html
+30  资金明细：funds.html
 31  积分明细：integral.html
 32  购物券明细：vouchers.html
 修改密码：modify-password.html

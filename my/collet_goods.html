@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>收藏商品</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../css/collect.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="../js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="collet_goods">
+			<div class="colletNavbar wt">
+				<a href="collet_goods.html" class="cur">收藏商品(5)</a>
+				<a href="collet_shop.html">收藏店铺(6)</a>
+			</div>
+			<div class="colletGoods-Container overflow mt10">
+				<ul>
+					<li>
+						<div class="fl"><img src="../images/default.jpg"></div>
+						<div class="fr">
+							<p class="collet-goodsName c3">秋冬女装新款韩版纯色套头修身毛衣女长袖显瘦打底针织衫</p>
+							<div class="foods-footer">
+								<div class="price">
+									￥<em>1480</em>.00
+								</div>
+								<div class="collect">
+									<i></i><span>取消</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<p class="no-collect">没有更多收藏了哟~</p>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		// 收藏navbar切换
+		$(".colletNavbar a").on('click',function(){
+			$(this).addClass('cur').siblings().removeClass('cur');
+		})
+
+		var item = ('<li> <div class="fl"><img src="../images/default.jpg"></div> <div class="fr"> <p class="collet-goodsName c3">秋冬女装新款韩版纯色套头修身毛衣女长袖显瘦打底针织衫</p> <div class="foods-footer"> <div class="price"> ￥<em>1480</em>.00 </div> <div class="collect"> <i></i><span>取消</span> </div> </div> </div> </li>');
+			$('.colletGoods-Container ul').append(Array(6).fill(item));
+	</script>
+</body>
+</html>
