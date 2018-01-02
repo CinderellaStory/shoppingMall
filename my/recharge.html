@@ -2,42 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>积分明细</title>
+	<title>充值</title>
 	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<link rel="stylesheet" href="../css/common.css" type="text/css">
 	<link rel="stylesheet" href="../css/reset.css" type="text/css">
-	<link rel="stylesheet" href="../css/integral.css" type="text/css">
+	<link rel="stylesheet" href="../css/my/recharge.css" type="text/css">
 	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
 	<script type="text/javascript" src="../js/viewport.js"></script>
 </head>
 <body>
 	<div class="container">
-		<header>
-			<div class="fl">
-				<p class="integral-text">积分</p>
-				<p class="integral-number">2360</p>
+		<div class="recharge">
+			<div class="recharge-money">
+				<input type="text" placeholder="请输入充值金额">
 			</div>
-			<div class="fr">
-				
-			</div>
-		</header>
-		<div class="integral mt10">
-			<h3>积分明细</h3>
-			<ul>
-				<li>
-					<div class="fl">
-						<p class="c9">2017-10-30 12:00:00</p>
-						<p class="c3">线上购物获积分</p>
-					</div>
-					<div class="fr cr">+300.00</div>
-				</li>
-			</ul>
+			<button>确认提现</button>
 		</div>
 	</div>
 	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	<script>
-		var item = ('<li> <div class="fl"> <p class="c9">2017-10-30 12:00:00</p> <p class="c3">积分购物</p> </div> <div class="fr cr">+300.00</div> </li>');
-		$(".integral ul").append(Array(10).fill(item));
+		
 	</script>
 </body>
 </html>

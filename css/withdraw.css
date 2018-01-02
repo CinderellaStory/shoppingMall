@@ -1,0 +1,6 @@
+.cardholder{ line-height: 1.06rem; padding-left: 0.4rem; }
+.bank{  margin-left: 0.4rem; height: 1.4rem; }
+.bank p{ height: 0.7rem;line-height: 0.7rem; }
+.money{ margin-top: 0.4rem; }
+.money input{ font-size: 0.38rem; height: 1.06rem; border: 0; color: #999; line-height: 1.06rem; width: 100%; padding-left: 0.45rem;  }
+button{ width: 5.96rem; color: #fff; font-size: 0.38rem; letter-spacing: 0.2rem; margin-top: 0.74rem; margin-left: 10%; border-radius: 0.1rem; height: 0.75rem; width: 80%; border: 0; background: #900000; }

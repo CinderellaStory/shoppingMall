@@ -1,5 +1,5 @@
 .OrderNavbar{ border-bottom: 1px solid #e5e5e5; }
-.OrderNavbar ul li{ color: #333; width: 1.4rem; text-align: center; height: 0.9rem; line-height: 0.9rem; display: inline-block; vertical-align: middle; }
+.OrderNavbar ul li{ color: #333; width: 1.36rem; text-align: center; height: 0.9rem; line-height: 0.9rem; display: inline-block; vertical-align: middle; }
 .OrderNavbar ul li.cur{ border-bottom: 1px solid #900000; color: #900000; }
 
 .OrderList ul li{ margin-top: 0.2rem; background: #fff; }

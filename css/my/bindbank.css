@@ -1,0 +1,10 @@
+/*绑定银行卡css*/
+.bindbank { color: #999; }
+.bindbank input{ color: #666;  border: 0; font-size: 0.32rem; height: 1.06rem; line-height: 1.06rem; padding-left: 0.4rem; }
+
+button{ width: 5.96rem; color: #fff; font-size: 0.36rem; letter-spacing: 0.2rem; margin-top: 0.74rem; margin-left: 10%; border-radius: 0.1rem; height: 0.75rem; width: 80%; border: 0; background: #900000; }
+.bindbank p{padding-left: 0.4rem; height: 0.8rem; line-height: 0.8rem; margin-top: 0.3rem; }
+.bindbank span{padding-left: 0.4rem; color: #333}
+.bindbank-info input{  width: 100%; }
+.card-type input{  width: 75%; }
+

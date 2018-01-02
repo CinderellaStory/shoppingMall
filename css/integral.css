@@ -1,26 +1,9 @@
-header{font-size: 0; overflow: hidden; background: #990000;height: 2.7rem;  color: #fff; padding-left: 0.4rem;}
-header .fl{ padding-top: 0.9rem;}
-header .fr{ padding-top: 1.3rem;    padding-top: 1.5rem;}
-header .fr div{ display: inline-block; vertical-align: top; margin-right: 0.6rem; }
-header .fr div p{ font-size: 0.3rem; }
-.funds-text{ font-size: 0.4rem; }
-.funds-number{ font-size: 0.8rem; margin-top: 0.04rem;}
-
-.integral{ height: 1.45rem; }
-.integral div{ margin-top: 0.2rem;text-align: center; }
-.integral .fl{ margin-left: 0.8rem; }
-.integral .fr{ margin-right: 0.6rem; }
-.integral div p{ color: #333;line-height: 0.5rem;  }
-.integral .number{  }
-.integral .text{ font-size: 0.34rem; }
-
-
-.integral-list{ background: #fff;  }
-.integral-list h3{ height: 1.06rem; line-height: 1.06rem; border-left: 3px solid #900000; color: #333; padding-left: 0.3rem; }
-.integral-list ul li{ height: 1.3rem;padding: 0 0.4rem; border-bottom: 1px solid #e5e5e5; }
-.integral-list ul li p.c9{ margin-top: 0.2rem; }
-.integral-list ul li p.c3{ margin-top: 0.1rem; font-size: 0.32rem; }
-.integral-list ul li .cr{ line-height: 1.3rem; }
-
-
-.icon-Cashwithdrawal{ margin-top: -0.04rem; }
+header{ background: #990000;height: 2.7rem;  color: #fff; padding-left: 0.4rem;}
+.integral-text{ padding-top: 0.9rem; font-size: 0.4rem; }
+.integral-number{ margin-top: 0.3rem; font-size: 0.6rem; }
+.integral{ background: #fff;  }
+.integral h3{ height: 1.06rem; line-height: 1.06rem; border-left: 3px solid #900000; color: #333; padding-left: 0.3rem; }
+.integral ul li{ height: 1.3rem;padding: 0 0.4rem; border-bottom: 1px solid #e5e5e5; }
+.integral ul li p.c9{ margin-top: 0.2rem; }
+.integral ul li p.c3{ margin-top: 0.1rem; font-size: 0.32rem; }
+.integral ul li .cr{ line-height: 1.3rem; }

@@ -1,0 +1,10 @@
+.goods-detail .shoplogo,.goods-detail .shoplogo img{ border-radius: 50%; width: 0.8rem;height: 0.8rem; }
+.goods-detail .goods-name{margin-left: 0.1rem; width: 2.25rem; }
+.shoplogo,.goods-name{ float: left;  }
+
+/*热门商铺css*/
+.item{ position: relative; display: inline-block;vertical-align: top; margin: 0.14rem 0.1rem; }
+.item .goods{ border: 1px solid #ccc; }
+.item .goods,.item img{ width: 2.1rem; height: 2.1rem; }
+.goods span{ opacity: 0.9; text-align: center; width: 1.26rem;height: 0.46rem; line-height: 0.46rem; position: absolute;bottom: 0.02rem;right: 0; background: #000;color: #fff; font-size: 0.14rem;}
+

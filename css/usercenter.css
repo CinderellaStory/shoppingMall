@@ -9,12 +9,14 @@
 .username .nameinfo{  margin-top: 0.1rem;  }
 .username span{ color: #fff;font-size: 0.4rem; margin-right: 0.15rem; }
 .username img{ vertical-align: middle; }
-.username .switch{ color: #ffa507; font-size: 0.34rem; margin-top: 0.1rem; }
+.username .switch{ font-size: 0.34rem; margin-top: 0.1rem; }
+.username .switch a{ color: #ffa507; }
 
-.user li{ display: inline-block; vertical-align: top; margin-left: 0.3rem; }
+.user li{ display: inline-block; vertical-align: top; margin-left: 0.28rem; }
 .seticon{ float: right; line-height: 1.5rem;}
 .user-status{ text-align: center; margin-top: 0.3rem; height: 1.1rem;}
 .user-status li{ color: #fff; width: 1.8rem;}
+.user-status li a{ color: #fff;}
 
 .order-info{ margin-bottom: 0.2rem; background: #fff;  }
 .order-info h4{ padding-left: 0.4rem;padding-right: 0.5rem;border-bottom: 1px solid #ccc;height: 1rem; line-height: 1rem; }
@@ -93,3 +95,6 @@ img.icon-alipay{width: 0.38rem;height: 0.38rem; vertical-align: middle;}
 
 img.icon-recharge{ width: 0.54rem;height: 0.41rem;}
 img.icon-Cashwithdrawal{width: 0.52rem;height: 0.46rem; }
+
+
+img.icon-inform{ width: 0.88rem; height: 0.88rem;vertical-align: middle; }
