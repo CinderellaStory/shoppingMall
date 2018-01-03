@@ -1,3 +1,6 @@
+/*各类小图片icon*/
+
+/*首页分类icon*/
 img.icon-pic01{ width: 0.86rem;height: 0.86rem; }
 img.icon-pic02{ width: 0.86rem;height: 0.86rem; }
 img.icon-pic03{ width: 0.86rem;height: 0.86rem; }
@@ -6,3 +9,8 @@ img.icon-pic05{ width: 0.86rem;height: 0.86rem; }
 img.icon-pic06{ width: 0.86rem;height: 0.86rem; }
 img.icon-pic07{ width: 0.86rem;height: 0.86rem; }
 img.icon-pic08{ width: 0.86rem;height: 0.86rem; }
+
+
+/*添加icon*/
+img.icon-add{width: 0.4rem;height: 0.4rem;  vertical-align: middle;  }
+img.icon-next{ width: 0.13rem; height: 0.25rem;vertical-align: middle; }

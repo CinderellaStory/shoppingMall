@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>已下架商品</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/img.css" type="text/css">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../css/my/goods-manage.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="../js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="ManageNavbar">
+			<a href="manage-shelves.html">已上架商品</a>
+			<a class="cur" href="manage-offshelf.html">已下架商品</a>
+		</div>
+		<div class="manage-shelves">
+			<ul>
+				<li>
+ 					<div class="supplier-goodsImg">
+ 						<a href=""><img src="../images/default.jpg" alt=""></a>
+ 					</div>
+ 					<div class="supplier-goodsDetail">
+ 						<div class="supplier-goodsName">
+ 							<a href="">百草味-零食小吃早餐食品糕点百草味-零食小吃早餐食品糕点</a>
+ 						</div>
+ 						<div class="supplier-footer">
+ 							<div class="goods-price">￥<span>68</span>.00</div>
+ 							<div class="supplier-add">
+ 								<a href=""><img src="../images/my/icon_add.png" class="icon-add"></a>
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(".ManageNavbar a").on('click',function(){
+			$(this).addClass('cur').siblings().removeClass('cur');
+		});
+		var item = ('<li> <div class="supplier-goodsImg"> <a href=""><img src="../images/default.jpg" alt=""></a> </div> <div class="supplier-goodsDetail"> <div class="supplier-goodsName"> <a href="">百草味-零食小吃早餐食品糕点百草味-零食小吃早餐食品糕点</a> </div> <div class="supplier-footer"> <div class="goods-price">￥<span>68</span>.00</div> <div class="supplier-add"> <a href=""><img src="../images/my/icon_add.png" class="icon-add"></a> </div> </div> </div> </li>');
+			$('.manage-shelves ul').append(Array(6).fill(item));
+	</script>
+</body>
+</html>

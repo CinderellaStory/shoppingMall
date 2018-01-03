@@ -1,0 +1,24 @@
+/*商品管理css*/
+
+.goods-manage ul{ background: #fff; }
+.goods-manage ul li{ border-bottom: 1px solid #ccc; height: 1.05rem; line-height: 1.05rem; padding-left: 0.4rem; padding-right: 0.38rem;  }
+.goods-manage ul li span{ color: #333; }
+.icon-next img{ width: 0.13rem; height: 0.25rem;}
+
+
+.ManageNavbar{ height: 0.86rem; line-height: 0.86rem; background: #fff; }
+.ManageNavbar a{border-bottom: 1px solid #e5e5e5; font-size: 0.34rem; color: #333; width: 49%; text-align: center; display: inline-block; }
+.ManageNavbar a.cur{border-bottom: 1px solid #900000; color: #900000;}
+
+
+.manage-shelves{ margin-top: 0.2rem; }
+.manage-shelves ul li{ padding: 0.2rem; margin-bottom: 0.1rem; overflow: hidden; background: #fff; }
+.manage-shelves ul li:last-child{ margin-bottom: 0; }
+.supplier-goodsImg,.supplier-goodsDetail{ float: left; }
+.supplier-goodsImg{width: 2.66rem; }
+.supplier-goodsDetail{width:59.7%; margin-left:0.2rem; position: relative; height: 2.66rem; }
+.supplier-goodsName a{ color: #333; }
+.supplier-goodsImg,.supplier-goodsImg img{ width: 2.66rem;height: 2.66rem; }
+.supplier-footer{ width: 100%;    position: absolute;left: 0;bottom: 0; }
+.supplier-footer .goods-price{ float: left; }
+.supplier-footer .supplier-add{ float: right;margin-right:0.2rem; }

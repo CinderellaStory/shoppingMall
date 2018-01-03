@@ -6,5 +6,5 @@
 .item{ position: relative; display: inline-block;vertical-align: top; margin: 0.14rem 0.1rem; }
 .item .goods{ border: 1px solid #ccc; }
 .item .goods,.item img{ width: 2.1rem; height: 2.1rem; }
-.goods span{ opacity: 0.9; text-align: center; width: 1.26rem;height: 0.46rem; line-height: 0.46rem; position: absolute;bottom: 0.02rem;right: 0; background: #000;color: #fff; font-size: 0.14rem;}
+.goods span{text-align: right; margin-right: 0.2rem; width: 100%;height: 0.46rem; line-height: 0.46rem; position: absolute;bottom: 0.02rem;right: 0; background-color: rgba(0, 0, 0, .6);color: #fff; font-size: 0.16rem;}
 

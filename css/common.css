@@ -20,17 +20,17 @@ footer a p{    margin-top: 0.04rem; color: #999; font-size: 0.24rem;  }
 
 .hot-shop{ margin-top: .2rem; padding: 0.2rem; font-size: 0; }
 .hotshop-list{ background: #fff;margin-bottom: 0.2rem; border: 1px solid #ccc; }
-.shophot-detail{ padding:0.2rem;  }
+.shophot-detail{ padding:0.2rem 0.4rem;  }
 .hotshop-goods{border-top: 1px solid #ccc;}
-.hotshop-name{ margin-top: 0.25rem; margin-left: 0.2rem;line-height: 0.4rem; }
+.hotshop-name{ margin-top: 0.2rem; margin-left: 0.2rem;line-height: 0.4rem; }
 .hotshoplogo,.hotshop-name,.btn{ display: inline-block; vertical-align: top; }
 .hotshoplogo,.hotshoplogo img{ border-radius: 50%; height: 1.2rem;width: 1.2rem; }
 .hotshop-item{ margin: 0.1rem 0 1.2rem 0; }
 
 .btn{ margin-top: 0.4rem; padding: 0.02rem 0.2rem; font-size: 0.2rem;  border: 1px solid #e26826; text-align: center;line-height: 0.48rem;  }
 .btn a{ color: #e26826; }
-.snames{ font-size : 0.2rem; color: #333; }
-.classify span,.classify em{ color: #999; font-size: 0.16rem;}
+.snames{ font-size : 0.28rem; color: #333;    font-weight: bold; }
+.classify span,.classify em{ color: #999; font-size: 0.2rem;}
 .classify em{ margin-left: 0.3rem;font-style: normal; }
 
 

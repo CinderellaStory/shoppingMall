@@ -1,0 +1,11 @@
+.supplier-content{ margin-top: 0.04rem; }
+.supplier-content ul li{ padding: 0.2rem; margin-bottom: 0.1rem; overflow: hidden; background: #fff; }
+.supplier-content ul li:last-child{ margin-bottom: 0; }
+.supplier-goodsImg,.supplier-goodsDetail{ float: left; }
+.supplier-goodsImg{width: 2.66rem; }
+.supplier-goodsDetail{width:59.7%; margin-left:0.2rem; position: relative; height: 2.66rem; }
+.supplier-goodsName a{ color: #333; }
+.supplier-goodsImg,.supplier-goodsImg img{ width: 2.66rem;height: 2.66rem; }
+.supplier-footer{ width: 100%;    position: absolute;left: 0;bottom: 0; }
+.supplier-footer .goods-price{ float: left; }
+.supplier-footer .supplier-add{ float: right;margin-right:0.2rem; }
