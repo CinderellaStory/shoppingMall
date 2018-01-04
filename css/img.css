@@ -14,3 +14,7 @@ img.icon-pic08{ width: 0.86rem;height: 0.86rem; }
 /*添加icon*/
 img.icon-add{width: 0.4rem;height: 0.4rem;  vertical-align: middle;  }
 img.icon-next{ width: 0.13rem; height: 0.25rem;vertical-align: middle; }
+
+
+/*地址icon*/
+img.icon-address{ width: 0.28rem; height: 0.34rem;vertical-align: middle; }

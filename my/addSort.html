@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加分类</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/img.css" type="text/css">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../css/my/addSort.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="../js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="addSort">
+			<div class="sortName">
+				<input type="text" placeholder="请输入主分类名称">
+			</div>
+			<div class="addSort-Info">
+				<div class="subSort">
+						<img src="../images/my/icon_add.png" class="icon-add">
+						<span>点击新增子分类</span>
+				</div>
+				<ul>
+					
+				</ul>
+			</div>
+			<button>确认添加</button>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(".subSort").on('click',function(){
+			var item = ('<li> <input type="text" placeholder="请添加子分类名称"> </li>'); 
+			$(".addSort-Info ul").append(item);
+		})
+
+	</script>
+</body>
+</html>

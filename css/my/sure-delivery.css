@@ -1,1 +1,25 @@
 /*去发货css*/
+.addressInfo{ padding-left: 0.38rem;  background: #fff; }
+.addressInfo p{ padding: 0.2rem 0; }
+.icon-address{display: inline-block; height: 0.34rem; width: 0.28rem; background: url(../../images/my/icon_address.png) no-repeat; background-size: 100% 100%;vertical-align: top;}
+.icon-address i{}
+.deliveryAdress span{margin-top: -0.05rem;display: inline-block; width: 90%;}
+
+.expressInfo ul{overflow: hidden;background: #fff;  }
+.expressInfo ul li{ border-bottom: 1px solid #e5e5e5; line-height: 1.14rem; height: 1.14rem;}
+.expressInfo ul li i{  margin-left: 0.38rem; margin-right: 0.1rem; vertical-align: middle; display: inline-block;height: 0.38rem;width: 0.38rem;background: url(../../images/my/icon_choose.png) no-repeat;background-size: 100% 100%;}
+.expressInfo ul li span{color: #999;}
+.icon-next{margin: 0.47rem 0.38rem 0 0;}
+.choose-express{ text-align: right;width: 57%; color: #999;   display: inline-block; }
+.expressInfo ul li a{padding-left: 0.38rem; color: #333; }
+.expressInfo ul li input{ font-size: 0.3rem;  color: #333; width: 100%; border: 0; line-height: 1.14rem; height: 1.14rem;padding-left: 0.38rem;}
+
+.default-express{ margin-top: 0.1rem; }
+.other-express{ margin-top: 0.2rem; }
+
+.expressInfo ul.cur li i{ vertical-align: middle;display: inline-block; background: url(../../images/my/icon_choosed.png) no-repeat; background-size: 100% 100%;}
+.expressInfo ul.cur li span{color: #333;}
+.expressInfo ul.cur li span.choose-express{color: #999;}
+
+
+

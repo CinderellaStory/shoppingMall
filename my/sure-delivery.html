@@ -7,17 +7,62 @@
 	<link rel="stylesheet" href="../css/common.css" type="text/css">
 	<link rel="stylesheet" href="../css/img.css" type="text/css">
 	<link rel="stylesheet" href="../css/reset.css" type="text/css">
-	<link rel="stylesheet" href="../css/userinfo.css" type="text/css">
+	<link rel="stylesheet" href="../css/my/sure-delivery.css" type="text/css">
 	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
 	<script type="text/javascript" src="../js/viewport.js"></script>
 </head>
 <body>
 	<div class="container">
-		
+		<div class="sure-delivery">
+			<div class="addressInfo">
+				<p class="addressUser">
+					<span><font color="#666">收货人：</font>林欣欣</span>
+					<span><font color="#666">手机号码：</font>13456896565</span>
+				</p>
+				<p class="deliveryAdress c3">
+					<i class="icon-address"></i>
+					<span>广东省深圳市南山区广东省深圳市南山区深圳市南山区 </span>
+				</p>
+			</div>
+			<div class="expressInfo">
+				<ul class="default-express">
+					<li>
+						<i></i><span>默认快递</span>
+					</li>
+					<li>
+						<a href="">
+							<span class="">选择发货快递</span>
+							<span class="choose-express">顺风快递</span>
+							<img src="../images/my/icon_next.png" class="icon-next fr">
+						</a>
+					</li>
+					<li>
+						<input type="text" placeholder="请输入快递单号">
+					</li>
+				</ul>
+				<ul class="other-express cur">
+					<li>
+						<i></i><span>其他快递</span>
+					</li>
+					<li>
+						<a href="">
+							<span class="">选择发货快递</span>
+							<span class="choose-express">所选快递</span>
+							<img src="../images/my/icon_next.png" class="icon-next fr">
+						</a>
+					</li>
+					<li>
+						<input type="text" placeholder="请输入快递单号">
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	<script>
-		
+		$(".expressInfo ul").on('click',function(){
+			$(this).addClass('cur').siblings().removeClass('cur');
+		})
 	</script>
 </body>
 </html>
