@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>默认页面</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/img.css" type="text/css">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../css/my/order-assess.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="../js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="order-assess">
+			<textarea name="" id="" cols="30" rows="10" placeholder="请填写你的评价---"></textarea>
+			<div class="uploader_file">
+			    <div class="uploader-box uploader-plus">
+			       <!--  <input id="uploader_input" class="uploader-input" accept="image/*" multiple="" type="file"> -->
+			       <span></span>
+			    </div>
+			    <!-- <div class="uploader-box uploader-minus">
+			    </div> -->
+			</div>
+			<div class="star">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p class="c9">给个五星吧~</p>
+			</div>
+			<button>提交评价</button>
+		</div>
+	</div>
+	<div class="dialog_bg"></div>
+	<div class="dialog">
+		<div class="photograph">拍照上传<input type="file" accept="image/*;capture=camera">直接调用相机</div>
+		<div class="Album">在相册选择</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(".uploader-plus").on('click',function(){
+		$(".dialog_bg").show();
+		$(".dialog").show();
+	})
+
+// 星星打分
+	var num=finalnum = tempnum= 0;
+	var lis = document.getElementsByTagName("li");
+	function fnShow(num) {
+	 finalnum= num || tempnum;//如果传入的num为0，则finalnum取tempnum的值
+	 for (var i = 0; i < lis.length; i++) {
+	  lis[i].className = i < finalnum? "on" : "";//点亮星星就是加class为light的样式
+	 }
+	}
+	for (var i = 1; i <= lis.length; i++) {
+	 lis[i - 1].index = i;
+	 lis[i - 1].onmouseover = function() { //鼠标经过点亮星星。
+	  fnShow(this.index);//传入的值为正，就是finalnum
+	 }
+	 lis[i - 1].onmouseout = function() { //鼠标离开时星星变暗
+	  fnShow(0);//传入值为0，finalnum为tempnum,初始为0
+	 }
+	 lis[i - 1].onclick = function() { //鼠标点击,同时会调用onmouseout,改变tempnum值点亮星星
+	  tempnum= this.index;
+	 }
+	}
+
+</script>
+</body>
+</html>

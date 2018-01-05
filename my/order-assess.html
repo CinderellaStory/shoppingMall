@@ -66,13 +66,20 @@
                 alert("请确保文件为图像类型");
                 return false;
             }
+
             var reader = new FileReader();
             reader.readAsDataURL(file);
             reader.onload = function (e) {
                 //插入图片
                 var index = $(".uploader-img").length + 1;
                 $(".uploader-plus").before("<div id='img_" + index + "' class='uploader-box uploader-progress' data-progress='0%'><img class='uploader-img' src='" + this.result + "'/></div>");
-                uploading("img_" + index);
+                	uploading("img_" + index);
+                    var num = $(".uploader_file .uploader-box");
+					if (num.length>=4) {
+						$(".uploader-plus").remove();
+						$(".uploader_file").css('text-align','center');
+					}
+                // console.log($(".uploader-img").length);
             }
         });
     }
@@ -98,6 +105,8 @@
     }
 
 
+
+// 星星打分
 	var num=finalnum = tempnum= 0;
 	var lis = document.getElementsByTagName("li");
 	function fnShow(num) {

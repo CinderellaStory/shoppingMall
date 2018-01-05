@@ -14,13 +14,21 @@ textarea{ font-size: 0.32rem; padding-left: 0.4rem;  padding-top: 0.26rem; width
 button{ font-size: 0.3rem; text-align: center;height: 0.74rem; width: 5.92rem; line-height: 0.74rem; font-size: 0.3rem; border:none; background: #900000; color: #fff; border-radius: 0.1rem;letter-spacing: 0.1rem;left: 0.8rem;bottom: 1rem;position: fixed; }
 
 .uploader_file{height: 2rem; padding-left: 0.4rem; }
-.uploader-box {float: left; height: 1.9rem; width: 1.9rem; border: 1px solid #ddd;    position: relative; }
+.uploader_file .uploader-box{margin-right: 0.3rem;}
+.uploader_file .uploader-box:last-child{margin-left: 0;}
+.uploader-box { display: inline-block; vertical-align: top; height: 1.9rem; width: 1.9rem; border: 1px solid #ddd;    position: relative; }
 
 .uploader-input {opacity: 0; width: 100%; height: 100%; }
 
 .uploader-plus::before {top: 28%;left: 34%; position: absolute; content: " "; height: 0.36rem; width: 0.44rem; background: url(../../images/my/icon_camera.png) no-repeat;background-size: 100% 100%; display: inline-block; }
 .uploader-plus::after {content: "点击上传";position: absolute;top: 50%;left: 15%;color: #666 }
 
+
+/*.uploader-input {opacity: 0; width: 100%; height: 100%; }
+
+.uploader-plus::before {top: 28%;left: 34%; position: absolute; content: " "; height: 0.36rem; width: 0.44rem; background: url(../../images/my/icon_camera.png) no-repeat;background-size: 100% 100%; display: inline-block; }
+.uploader-plus::after {content: "点击上传";position: absolute;top: 50%;left: 15%;color: #666 }
+*/
 /*.uploader-minus::after {content: " "; width: 40px; height: 2px; background-color: #D9D9D9; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }*/
 
 .uploader-img {width: 100%; height: 100%; }
@@ -38,7 +46,12 @@ button{ font-size: 0.3rem; text-align: center;height: 0.74rem; width: 5.92rem; l
 .star{ border-top: 1px solid #e5e5e5; margin-top: 0.16rem;  text-align: center; }
 .star ul {margin-left: -0.2rem;overflow: hidden; margin:0.32rem auto;    width: 46%; }
 .star ul li:first-child{ margin-left: 0; }
-.star ul li{ float: left; margin-left: 0.2rem; background: url(../../images/my/icon_star.png) no-repeat; width: 0.53rem; height: 0.53rem; background-size: 100% 100%; }
+.star ul li{  float: left; margin-left: 0.2rem; background: url(../../images/my/icon_star.png) no-repeat; width: 0.53rem; height: 0.53rem; background-size: 100% 100%; }
 .star ul li.on{ background: url(../../images/my/icon_star_set.png) no-repeat; width: 0.53rem; height: 0.53rem; background-size: 100% 100%; }
 
 .star .c9{ margin-top: 0.2rem; padding-bottom: 0.2rem; text-align: center; }
+
+.photograph{ height: 1rem;line-height: 1rem; color: #900000; font-size: 0.4rem; border-bottom: 1px solid #900000; }
+.Album{ color: #900000; font-size: 0.4rem; height: 1rem;line-height: 1rem; }
+.dialog{ display: none; z-index: 1111; text-align: center; padding: 0 0.34rem; width: 4.5rem; height: 2.1rem; background: #fff; position: absolute; top: 40%; left: 1.25rem; }
+.dialog_bg{ display: none; position: fixed; background: rgba(0, 0, 0, .6); width: 100%; height: 100%; top: 0;left: 0; }
