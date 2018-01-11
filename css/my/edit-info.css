@@ -1,0 +1,7 @@
+.areaList{height: 1.04rem; border-bottom: 1px solid #e5e5e5; background: #fff; line-height: 1.04rem; padding: 0 0.38rem 0 0.4rem;  }
+.areaList span{ font-size: 0.32rem; color: #333; }
+.areaList i{ margin-top: 0.5rem; float: right; background: url(../../images/my/icon_down.png) no-repeat; width: 0.31rem;height: 0.15rem; background-size: 100% 100%; display: inline-block; }
+.areaSub{ display: none; }
+.area .cur i{background: url(../../images/my/icon_up.png) no-repeat;background-size: 100% 100%;  }
+.areaSub ul li{height: 1.04rem; line-height: 1.04rem;color: #666;padding: 0 0.38rem 0 0.4rem; }
+.areaSub ul li:before{ content: "●"; color: #666; font-size: 0.28rem; vertical-align: top;  }

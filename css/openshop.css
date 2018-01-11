@@ -1,14 +1,17 @@
 .openshop{}
-.openshop .grade{border-bottom: 1px solid #e7e7e7; position: relative; height: 1rem; color: #333; line-height: 1rem; background: #fff; padding-left: 0.4rem; font-size: 0.32rem;}
+.openshop .grade{border-bottom: 1px solid #e7e7e7; position: relative; height: 1rem; color: #333; line-height: 1rem; background: #fff; padding-left: 0.4rem;}
 .openshop .grade:after{ position: absolute; right: 4%; top: 50%; content: ' ';background: url(../images/my/icon_down.png) no-repeat; width: 0.31rem; background-size: 100% 100%; height: 0.15rem; }
 .openshop .group ul{ background: #fff; display: none; }
 .openshop ul li{height: 1rem;border-bottom: 1px solid #e7e7e7; color: #333; line-height: 1rem;padding-left: 0.4rem;  }
 
-.text{ padding-left: 0.4rem;line-height: 0.5rem; margin-top: 0.2rem; color: #999; }
-input{ width: 100%; border:none; height: 1rem; line-height: 1rem; padding-left: 0.4rem; font-size: 0.32rem; }
+.text{ padding-left: 0.4rem;line-height: 0.5rem; margin-top: 0.2rem;margin-bottom: 0.2rem;color: #999; }
+input{ width: 100%; border:none; height: 1rem; line-height: 1rem; padding-left: 0.4rem; font-size: 0.3rem; }
 .payment ul li{ overflow: hidden; padding-right: 0.4rem; }
-.payment ul li span{ padding-left: 0.2rem; }
 .payment ul li em{ display: inline-block;height: 0.38rem; width: 0.38rem; background: url(../images/my/icon_choose.png) no-repeat; background-size: 100% 100%; }
 .payment ul li.cur em{ display: inline-block;background: url(../images/my/icon_choosed.png) no-repeat; background-size: 100% 100%;}
+
+.item span{ font-size: 0.29rem;padding-left: 0.2rem; color: #666; }
+.item ul li i{  }
+
 
 button{ text-align: center;height: 0.74rem; width: 5.92rem; line-height: 0.74rem; font-size: 0.3rem; border:none; background: #900000; color: #fff; border-radius: 0.1rem;letter-spacing: 0.2rem;left: 0.8rem;bottom: 1rem;position: fixed; }

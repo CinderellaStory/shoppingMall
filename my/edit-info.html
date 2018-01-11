@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>默认页面</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/img.css" type="text/css">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../css/my/edit-info.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="../js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="edit-info">
+			<div class="area" data-area="area1">
+				<div class="areaList"><span>华东</span><i></i></div>
+				<div class="areaSub" style="display: none;">
+					<ul>
+						<li><a href="">上海</a></li>
+						<li><a href="">江苏</a></li>
+						<li><a href="">浙江</a></li>
+						<li><a href="">安徽</a></li>
+						<li><a href="">江西</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="area" data-area="area2">
+				<div class="areaList"><span>华南</span><i></i></div>
+				<div class="areaSub" style="display: none;">
+					<ul>
+						<li>广东</li>
+						<li>福建</li>
+						<li>广西</li>
+						<li>海南</li>
+					</ul>
+				</div>
+			</div>
+			<div class="area" data-area="area3">
+				<div class="areaList"><span>华北</span><i></i></div>
+				<div class="areaSub" style="display: none;">
+					<ul>
+						<li>北京</li>
+						<li>天津</li>
+						<li>河北</li>
+						<li>山东</li>
+						<li>河南</li>
+						<li>山西</li>
+						<li>内蒙古</li>
+					</ul>
+				</div>
+			</div>
+			<div class="area" data-area="area4">
+				<div class="areaList"><span>华中</span><i></i></div>
+				<div class="areaSub" style="display: none;">
+					<ul>
+						<li>湖北</li>
+						<li>湖南</li>
+					</ul>
+				</div>
+			</div>
+			<div class="area" data-area="area5">
+				<div class="areaList"><span>西南</span><i></i></div>
+				<div class="areaSub" style="display: none;">
+					<ul>
+						<li>四川</li>
+						<li>重庆</li>
+						<li>贵州</li>
+						<li>云南</li>
+						<li>西藏</li>
+					</ul>
+				</div>
+			</div>
+			<div class="area" data-area="area6">
+				<div class="areaList"><span>东北</span><i></i></div>
+				<div class="areaSub" style="display: none;">
+					<ul>
+						<li>辽宁</li>
+						<li>吉林</li>
+						<li>黑龙江</li>
+					</ul>
+				</div>
+			</div>
+			<div class="area" data-area="area7">
+				<div class="areaList"><span>西北</span><i></i></div>
+				<div class="areaSub" style="display: none;">
+					<ul>
+						<li>陕西</li>
+						<li>甘肃</li>
+						<li>宁夏</li>
+						<li>青海</li>
+						<li>新疆</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(function(){
+		$(".area .areaList").on('click',function(){
+	 	if ($(this).next('.areaSub').css('display')=='none') {
+	 		// 判断下拉是否显示隐藏   
+	 		//   如果隐藏就显示   如果显示就隐藏
+	 		console.log(1111);  //表示显示
+	 		$(this).addClass('cur');
+	 		$(this).next().slideDown(100);
+	 		// $(".area .areaSub").hide().eq($('.area .areaList').index(this)).show();
+
+	 		if ($(this).parent().siblings().children(".areaSub").css('display')=='block') {
+	 			console.log(3333);
+	 			$(this).removeClass('cur');
+	 			$(this).next().slideUp(100);
+	 		}
+	 	}else
+	 	{
+	 		console.log(2222);  //表示隐藏
+	 		$(this).removeClass('cur');
+	 		$(this).next().slideUp(100);
+	 	}
+		})
+	})
+
+
+	</script>
+</body>
+</html>

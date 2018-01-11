@@ -20,7 +20,8 @@
 .BtnGroup{ height: 0.96rem;text-align: right;line-height: 0.96rem;}
 .BtnGroup .Line-btn{ display: inline-block; width: 1.56rem; text-align: center; border-radius: 0.5rem; height: 0.5rem; font-size: 0.28rem; line-height: 0.5rem;  }
 .BtnGroup .cancel-btn{ border:1px solid #666; color:#666;  }
-.BtnGroup .payment-btn{ border:1px solid #900000; color: #900000;margin-left: 0.26rem;  }
+.BtnGroup .payment-btn{ border:1px solid #900000; margin-left: 0.26rem;  }
+.BtnGroup .payment-btn a{color: #900000; }
 
 
 

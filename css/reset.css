@@ -13,6 +13,7 @@ html{font-size: 100px;}
 .inline{ display: inline-block; }
 .block{ display: block; }
 body{ background: #f1eded; letter-spacing: 0.04rem; }
+input,textarea,span,p{ letter-spacing: 0.04rem; }
 
 .mb{}
 .lb{ border-bottom: 1px solid #e7e7e7; }
