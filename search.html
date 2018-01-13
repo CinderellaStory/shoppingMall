@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索页面</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/search.css" type="text/css">
+	<link rel="stylesheet" href="css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="search">
+			<form action="">
+				<div class="search-input" onsubmit="return false;">
+					<!-- <input type="text" placeholder="请输入商品或店铺名称"> -->
+					<input id="keyword" placeholder="输入关键字搜索"  type="search" /> 
+				
+				</div>
+			</form>
+			<div class="recent-search">
+				<i></i><span>最近搜索</span>
+			</div>
+			<div class="search-List">
+				<ul>
+					<li><a href="">短靴</a></li>
+					<li><a href="">补水</a></li>
+					<li><a href="">补水</a></li>
+					<li><a href="">补水</a></li>
+					<li><a href="">补水</a></li>
+					<li><a href="">家居服</a></li>
+				</ul>
+			</div>
+			<div class="empty">清空历史记录</div>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$("#keyword").on('keypress',function(e) {  
+                var keycode = e.keyCode;  
+                var searchName = $(this).val();  
+                if(keycode=='13') {  
+                    e.preventDefault();    
+                    //请求搜索接口  
+                    alert("test");
+                      
+                }  
+         });  
+		$("#keyword").bind("search", function() {
+		    //要执行的方法
+		    console.log($("input").val());
+		});
+	</script>
+</body>
+</html>

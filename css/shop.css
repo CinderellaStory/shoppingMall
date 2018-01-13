@@ -1,3 +1,11 @@
+/*.searchBar{    background: #fff; font-size: 0.3rem;padding-left: 0.6rem;border: none; outline: none; margin-top: 0.2rem;border-radius: 0.3rem; width: 4.8rem; height: 0.56rem; margin-left: 0.35rem; }
+header{ overflow: hidden; font-size: 0; height: 0.9rem; background: #990000;  }
+.serach { font-size: 0; position: relative; }
+.serach .icon-sousuo2{    font-size: 0.3rem; color: #666; position: absolute; left: 0.5rem;top: 0.1rem;}
+.searchBar ul li { border-radius: 2rem;height: 0.45rem; line-height: 0.45rem; color: #fff; margin-top: 0.05rem; padding: 0 0.2rem; background: #900000; display: inline-block;}
+.searchBar ul li label{ border-right: 1px solid #fff;    padding-right: 0.08rem; }*/
+
+
 nav{ height: 0.7rem; line-height: 0.7rem; }
 nav ul {margin: 0 auto;text-align: center;}
 nav ul li.on{ color: #900000; }

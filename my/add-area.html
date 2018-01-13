@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加地区</title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/img.css" type="text/css">
+	<link rel="stylesheet" href="../css/reset.css" type="text/css">
+	<link rel="stylesheet" href="../css/my/add-area.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<script type="text/javascript" src="../js/viewport.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="add-area">
+			<div class="group">
+				<ul>
+					<li class="AreaName">
+						<a href="my/revise-nickname.html">
+							<span>地区名称</span>
+							<i class="icon-next fr">
+								<span>华东</span>
+								<img src="../images/my/icon_next.png" alt="">
+							</i>
+						</a>
+					</li>
+					<li>
+						<a href="my/choose-sex.html">
+							<span>所含地区</span>
+							<i class="icon-next fr">
+								<img src="../../images/my/icon_next.png" alt="">
+							</i>
+						</a>
+						<ul>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="dialog_bg"></div>
+	<!-- 地区名称弹窗 -->
+	<div class="AreaDialog">
+		<h4><span class="fl">选择名称</span><em class="fr finish">完成</em></h4>
+		<ul>
+			<li><i></i><span>华东</span></li>
+			<li><i></i><span>华南</span></li>
+			<li><i></i><span>华北</span></li>
+			<li><i></i><span>东北</span></li>
+			<li><i></i><span>西北</span></li>
+			<li><i></i><span>西南</span></li>
+		</ul>
+	</div>
+	<!-- 选择所含省份弹窗 -->
+	<div class="Province">
+		<h4><span class="fl">选择名称</span><em class="fr finish">完成</em></h4>
+		<ul>
+			<li><i></i><span>华东</span></li>
+			<li><i></i><span>华南</span></li>
+			<li><i></i><span>华北</span></li>
+			<li><i></i><span>东北</span></li>
+			<li><i></i><span>西北</span></li>
+			<li><i></i><span>西南</span></li>
+		</ul>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+	<script>
+		$(".AreaName").click(function(){
+
+		})
+		$(".AreaDialog ul li").click(function(){
+			if ($(this).hasClass('on')) {
+				$(this).removeClass('on');
+			}else
+			{
+				$(this).addClass('on');
+			}
+		})
+		
+		$(".finish").click(function(){
+			$(".AreaDialog").hide();
+			$(".dialog_bg").hide();
+			// console.log($(".group ul li.AreaName a i span").text());
+			// console.log($(".AreaDialog ul li.on").text());
+			$(".group ul li.AreaName a i span").text($(".AreaDialog ul li.on").text());
+		})
+
+
+		
+	</script>
+</body>
+</html>

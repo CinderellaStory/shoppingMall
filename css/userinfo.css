@@ -2,7 +2,8 @@
 .userlogo{ padding: 0.3rem; }
 .userlogo em img{ width: 0.86rem; height: 0.86rem; border-radius: 50%; }
 i.icon-next img{ width: 0.13rem; height: 0.25rem;}
-
+input{ border: 0;text-align: right;    color: #999; }
+i{ font-style: normal; }
 .group ul li{ border-bottom: 1px solid #ccc; height: 1.05rem; line-height: 1.05rem; padding-left: 0.4rem; padding-right: 0.38rem;  }
 .group ul li span{ color: #333; }
 .group ul li i span{margin-right: 0.1rem;font-size: 0.3rem; color: #999; font-style: normal; }

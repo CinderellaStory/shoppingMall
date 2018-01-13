@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/userinfo.css" type="text/css">
 	<script type="text/javascript" src="js/viewport.js"></script>
-</head>
+	<link href="css/date/mobiscroll_date.css" rel="stylesheet" /></head>
 <body>
 	<div class="container">
 		<div class="userinfo">
@@ -19,23 +19,28 @@
 			<div class="group">
 				<ul>
 					<li>
-						<span>昵称</span>
-						<i class="icon-next fr">
-							<span>Lisa</span>
-							<img src="images/my/icon_next.png" alt="">
-						</i>
+						<a href="my/revise-nickname.html">
+							<span>昵称</span>
+							<i class="icon-next fr">
+								<span>Lisa</span>
+								<img src="images/my/icon_next.png" alt="">
+							</i>
+						</a>
 					</li>
 					<li>
-						<span>性别</span>
-						<i class="icon-next fr">
-							<span>女</span>
-							<img src="images/my/icon_next.png" alt="">
-						</i>
+						<a href="my/choose-sex.html">
+							<span>性别</span>
+							<i class="icon-next fr">
+								<span>女</span>
+								<img src="images/my/icon_next.png" alt="">
+							</i>
+						</a>
 					</li>
 					<li>
 						<span>出生日期</span>
 						<i class="icon-next fr">
-							<span>1995-10-30</span>
+							<!-- <span>1995-10-30</span> -->
+							<input type="text" name="USER_AGE" id="USER_AGE" readonly class="input" placeholder="请填写出生日期" />
 							<img src="images/my/icon_next.png" alt="">
 						</i>
 					</li>
@@ -44,5 +49,30 @@
 		</div>
 	</div>
 	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/date/mobiscroll_date.js" charset="gb2312"></script> 
+	<script src="js/date/mobiscroll.js"></script>
+	<script type="text/javascript">
+$(function () {
+	var currYear = (new Date()).getFullYear();	
+	var opt={};
+	opt.date = {preset : 'date'};
+	opt.datetime = {preset : 'datetime'};
+	opt.time = {preset : 'time'};
+	opt.default = {
+		theme: 'android-ics light', //皮肤样式
+		display: 'modal', //显示方式 
+		mode: 'scroller', //日期选择模式
+		dateFormat: 'yyyy-mm-dd',
+		lang: 'zh',
+		showNow: true,
+		nowText: "今天",
+		startYear: currYear - 50, //开始年份
+		endYear: currYear + 10 //结束年份
+	};
+
+	$("#USER_AGE").mobiscroll($.extend(opt['date'], opt['default']));
+
+});
+</script>
 </body>
 </html>
