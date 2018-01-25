@@ -36,6 +36,6 @@ h1 span{ height: 25px; width:10px;margin-right: 0.1rem;display: inline-block; ve
 .item .goods{ border: 1px solid #ccc; }
 .item,.item img{ width: 2.1rem; height: 2.1rem; }
 .goods span{ opacity: 0.6; text-align: center; width: 1.26rem;height: 0.46rem; line-height: 0.46rem; position: absolute;bottom:-0.01rem;right: 0; background: #000;color: #fff; font-size: 0.14rem;}
-
+.shop-detail{ margin-top:0.2rem; }
 .shop-detail .shop-name{font-size: 0.2rem;    color: #666;}
 .shop-detail .number{font-size: 0.2rem;    color: #666;}
