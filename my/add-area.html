@@ -8,7 +8,8 @@
 	<link rel="stylesheet" href="../css/img.css" type="text/css">
 	<link rel="stylesheet" href="../css/reset.css" type="text/css">
 	<link rel="stylesheet" href="../css/my/add-area.css" type="text/css">
-	<link rel="stylesheet" href="../css/usercenter.css" type="text/css"><link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
+	<link rel="stylesheet" href="../css/usercenter.css" type="text/css">
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_499154_do2bcrl2w0hn0zfr.css" type="text/css">
 	<script type="text/javascript" src="../js/viewport.js"></script>
 </head>
 <body>
@@ -17,7 +18,7 @@
 			<div class="group">
 				<ul>
 					<li class="AreaName">
-						<a href="my/revise-nickname.html">
+						<a>
 							<span>地区名称</span>
 							<i class="icon-next fr">
 								<span>华东</span>
@@ -67,8 +68,9 @@
 	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 
 	<script>
-		$(".AreaName").click(function(){
-
+		$(".AreaName a").click(function(){
+			$(".AreaDialog").show();
+			$(".dialog_bg").show();
 		})
 		$(".AreaDialog ul li").click(function(){
 			if ($(this).hasClass('on')) {
