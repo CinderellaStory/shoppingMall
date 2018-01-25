@@ -17,7 +17,7 @@ footer a p{    margin-top: 0.04rem; color: #999; font-size: 0.24rem;  }
 
 .list{ margin-right: 0.2rem; margin-bottom: 0.2rem;display: inline-block;width: 3.42rem;border: 1px solid #ccc; }
 .ysc{ overflow: hidden; }
-.goods-detail{padding: 0.1rem 0 0.1rem 0.1rem; font-size: 0; background: #fff;}
+.goods-detail{padding: 0.1rem; font-size: 0; background: #fff;}
 .goods-detail .goods-name{ color: #333; vertical-align: middle; }
 .list .goods-img,.goods-img img{height: 3.42rem;width: 3.42rem;}
 .goods-name p{height: 0.74rem;    font-size: 0.26rem; overflow: hidden; line-height: 0.36rem;}
