@@ -39,3 +39,4 @@ h1 span{ height: 25px; width:10px;margin-right: 0.1rem;display: inline-block; ve
 .shop-detail{ margin-top:0.2rem; }
 .shop-detail .shop-name{font-size: 0.2rem;    color: #666;}
 .shop-detail .number{font-size: 0.2rem;    color: #666;}
+.goodslist{ text-align: center; }
